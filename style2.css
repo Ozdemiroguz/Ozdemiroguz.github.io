@@ -166,19 +166,3 @@
 button:hover {
     transform: translate(5px, -5px);
 }
-
-.social {
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 10%;
-    bottom: 5%;
-    right: 5%;
-}
-
-.social a {
-    margin-left: 30px;
-    color: white;
-    text-decoration: none;
-    font-size: 30px;
-}
