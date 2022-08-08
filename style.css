@@ -635,10 +635,10 @@ input[name="r"] {
     }
 
     .right-section {
-        top: 25vh;
+        top: 30vh;
         left: 2%;
         width: 96%;
-        height: 60vh;
+        height: 65vh;
         margin: 0;
     }
 
@@ -646,13 +646,25 @@ input[name="r"] {
         top: 2vh;
         width: 96%;
         left: 2%;
-        height: 20vh;
+        height: 25vh;
     }
 
     .left-section .profile {
         padding-top: 2%;
         padding-left: 2%;
         padding-bottom: 2%;
+    }
+
+    .profile-info p:first-child {
+        font-size: 17px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .profile-info p:last-child {
+        font-size: 10px;
+        font-weight: bold;
+        margin-bottom: 15px;
     }
 
     .left-section .menu {
@@ -665,7 +677,7 @@ input[name="r"] {
 
     .menu label {
         padding: 0;
-        font-size: 16px;
+        font-size: 12px;
 
     }
 
@@ -685,12 +697,20 @@ input[name="r"] {
 
     }
 
+    h1 {
+        font-size: 50px;
+    }
+
+    h6 {
+        font-size: 15px;
+    }
+
     .left-section .social-media a {
         font-size: 24px;
     }
 
     .navigation {
-        left: 15%;
+        left: 6%;
     }
 
     .page3 p,
@@ -704,7 +724,11 @@ input[name="r"] {
     }
 
     .page4 h1 {
-        margin-left: 10%;
+        margin-left: 5%;
+    }
+
+    .project h3 {
+        font-size: 20px;
     }
 
     .page4 .project {
@@ -712,10 +736,10 @@ input[name="r"] {
     }
 
     .project .info p {
-        font-size: 11px;
+        font-size: 9px;
     }
 
     .project .link a {
-        font-size: 11px;
+        font-size: 8px;
     }
 }
