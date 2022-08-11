@@ -369,8 +369,13 @@ input[name="r"] {
 .link a {
     font-size: 12px;
     display: block;
-    color: #fff;
+    color: rgba(252, 252, 252, 0.3);
+    transition: 400ms;
     padding-bottom: 5px;
+}
+
+.link a:hover {
+    color: #fff;
 }
 
 .link i {
@@ -635,15 +640,15 @@ input[name="r"] {
     }
 
     .right-section {
-        top: 30vh;
+        top: 27vh;
         left: 2%;
         width: 96%;
-        height: 65vh;
+        height: 64vh;
         margin: 0;
     }
 
     .left-section {
-        top: 2vh;
+        top: 1vh;
         width: 96%;
         left: 2%;
         height: 25vh;
@@ -741,5 +746,9 @@ input[name="r"] {
 
     .project .link a {
         font-size: 8px;
+    }
+
+    .page5 ul li i {
+        font-size: 16px;
     }
 }

@@ -1,0 +1,163 @@
+.rect-auto,
+.c100.p85,
+.slice {
+    clip: rect(auto, auto, auto, auto);
+}
+
+.pie,
+.c100 .bar,
+.c100.p85 .fill {
+    position: absolute;
+    border: 0.14em solid #307bbb;
+    width: 0.72em;
+    height: 0.72em;
+    clip: rect(0em, 0.5em, 1em, 0em);
+    border-radius: 50%;
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.pie-fill,
+.c100.p85 .bar:after,
+.c100.p85 .fill {
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.c100 {
+    position: relative;
+    font-size: 80px;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    float: left;
+    margin: 0 0.1em 0.1em 0;
+    background-color: #888888;
+    ;
+}
+
+.c100 *,
+.c100 *:before,
+.c100 *:after {
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.c100.center {
+    float: none;
+    margin: 0 auto;
+}
+
+.c100.big {
+    font-size: 200px;
+}
+
+
+.c100>span {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 5em;
+    line-height: 5em;
+    font-size: 0.2em;
+    color: #888888;
+    display: block;
+    text-align: center;
+    white-space: nowrap;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -moz-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.c100:after {
+    position: absolute;
+    top: 0.14em;
+    left: 0.14em;
+    display: block;
+    content: " ";
+    border-radius: 50%;
+    background-color: white;
+    width: 0.72em;
+    height: 0.72em;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -moz-transition-timing-function: ease-in;
+    -o-transition-timing-function: ease-in;
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+}
+
+
+
+
+
+.c100.p85 .bar {
+    -moz-transform: rotate(306deg);
+    -ms-transform: rotate(306deg);
+    -webkit-transform: rotate(306deg);
+    transform: rotate(306deg);
+}
+
+
+
+
+
+.c100:hover>span {
+    width: 4em;
+    line-height: 3.8em;
+    font-size: 0.27em;
+
+}
+
+.c100:hover:after {
+    top: 0.1em;
+    left: 0.1em;
+    width: 0.8em;
+    height: 0.8em;
+}
+
+
+
+
+
+
+
+.c100.orange .bar,
+.c100.orange .fill {
+    border-color: #fa6900 !important;
+}
+
+.c100.orange:hover>span {
+    color: #fa6900;
+}
+
+.c100.orange.dark .bar,
+.c100.orange.dark .fill {
+    border-color: #fa6900 !important;
+}
+
+.c100.orange.dark:hover>span {
+    color: #fa6900;
+}
