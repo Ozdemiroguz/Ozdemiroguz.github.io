@@ -5,191 +5,282 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
 
-    <title>Oguzhan Ozdemir</title>
+    <title>Document</title>
 </head>
 
 <body>
-    <img src="images/936378.jpg" class="background">
+    <header class="page__header header">
+        <div class="header__container container">
+            <div class="header__body">
+                <div class="header__leftside">
+                    <a href="#" title="" class="header__logo">Oguzhan Ozdemir</a>
+                </div>
+                <div class="header__rightside">
+                    <div class="header__menu header-menu">
+                        <ul class="header-menu__list">
+                            <li class="header-menu__item">
+                                <a href="#" class="header-menu__link">Home</a>
+                            </li>
+                            <li class="header-menu__item">
+                                <a href="#section02" class="header-menu__link">About</a>
+                            </li>
+                            <li class="header-menu__item">
+                                <a href="#section03" class="header-menu__link">Projects</a>
+                            </li>
 
-    <div class="left-section">
-        <div class="profile">
-            <img src="images/beyazsweat.jpeg" class="profile-picture">
-            <div class="profile-info">
-                <p>Oguzhan Ozdemir</p>
-                <p>ozdemiroguzhan55@gmail.com</p>
+                            <li class="header-menu__item">
+                                <a href="#section04" class="header-menu__link">Skills</a>
+                            </li>
+                            <li class="header-menu__item">
+                                <a href="#footer" class="header-menu__link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header__changer">
+                        <div class="header__moon">
+                            <i class='bx bx-moon'></i>
+                        </div>
+                    </div>
+                    <div class="header__mob">
+                        <div class="header__mob-menu">
+                            <i class='bx bx-menu'></i>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="menu">
-            <label for="r1" class="Welcome">Welcome</label>
-            <label for="r2" class="Welcome">About</label>
-            <label for="r3" class="Welcome">Skills</label>
-            <label for="r4" class="Welcome">Projects</label>
-            <label for="r5" class="Welcome">Contact Me</label>
-        </div>
-        <div class="social-media">
-            <li><a href="https://www.instagram.com/0zdemiroguzhan/?hl=en" class="fa fa-instagram"></a></li>
-            <li> <a href="" class="fa fa-facebook"></a></li>
-            <li> <a href="https://twitter.com/birsalbe" class="fa fa-twitter"> </a></li>
-            <li> <a href="https://open.spotify.com/user/kbl3trzdzaw2ln763xtt66ekz" class="fa fab fa-spotify"></a></li>
-        </div>
-
-
-    </div>
-    <div class="right-section middle">
-        <div class="slides">
-            <input type="radio" name="r" id="r1" checked>
-            <input type="radio" name="r" id="r2">
-            <input type="radio" name="r" id="r3">
-            <input type="radio" name="r" id="r4">
-            <input type="radio" name="r" id="r5">
-
-            <div class="slide page1">
-                <h1>Welcome</h1>
-                <h5>I'am Oguzhan Ozdemir</h5>
-                <p>Computer Engineering Student</p>
-                <a href="mailto:ozdemiroguzhan55@gmail.com"><button>Contact Me</button></a>
+    </header>
+    <section id="section01" class="demo">
+        <div class="sectioninfo">
+            <h1>Welcome
+            </h1>
+            <h3>
+                I'am Oguzhan Ozdemir
+            </h3>
+            <h5>Computer Engineering</h5>
+            <div class="intro-soc">
+                <div class="intro-soc__item">
+                    <a href="https://twitter.com/birsalbe" title="" class="intro-soc__link"><i
+                            class='bx bxl-twitter'></i></a>
+                </div>
+                <div class="intro-soc__item">
+                    <a href="https://github.com/Ozdemiroguz" title="" class="intro-soc__link"><i
+                            class='bx bxl-github'></i></a>
+                </div>
+                <div class="intro-soc__item">
+                    <a href="https://www.instagram.com/0zdemiroguzhan/" title="" class="intro-soc__link"><i
+                            class='bx bxl-instagram'></i></a>
+                </div>
+                <div class="intro-soc__item">
+                    <a href="https://open.spotify.com/user/kbl3trzdzaw2ln763xtt66ekz?si=66bea948982549ea" title=""
+                        class="intro-soc__link"><i class='bx bxl-spotify'></i></a>
+                </div>
+                <div class="intro-soc__item">
+                    <a href="#" title="" class="intro-soc__link"><i class='bx bxl-gmail'></i><a>
+                </div>
             </div>
-            <div class="slide page2 ">
-                <h1>Who Am I ?</h1>
-                <h6>Hello, my name is Oğuzhan,
-                    I am a computer engineering
-                    student in his 20s. I continue
-                    to study at Eskişehir Osmangazi
-                    University. I am more interested in
-                    programming than hardware. Although I
-                    have tried many software languages,
-                    I am currently interested
-                    in web programming and I continue to
-                    improve myself in this field.</h6>
-            </div>
-            <div class="slide page3">
-
-                <div>
-                    <h1>My Skills</h1>
-                    <P>I know that I am at the beginning
-                        of the road and I say continue
-                        to improve myself every day.
-                    </P>
-                    <div class="skillbar">
-                        <p>Html/Css
-                            <span>%60</span>
-                        </p>
-
-                        <div class="out ">
-                            <div class="in"></div>
-                        </div>
-
-                        <p>JavaScript
-                            <span>%20</span>
-                        </p>
-
-                        <div class="out ">
-                            <div class="in1"></div>
-                        </div>
-                        <p>C++
-                            <span>%40</span>
-                        </p>
-
-                        <div class="out ">
-                            <div class="in2"></div>
-                        </div>
+        </div>
+        <a href="#section02"><span></span><span></span><span></span>Scroll</a>
+    </section>
+    <section id="section02" class="section2">
+        <div class="abaout-info">
+            <h1>Who I Am
+            </h1>
+            <p>
+                Hello, my name is Oğuzhan,
+                I am a computer engineering
+                student in his 20s. I am currently studying at Eskişehir Osmangazi University. I am more interested in
+                programming than hardware. Although I
+                have tried many software languages,
+                I am currently interested
+                in web programming and I continue to
+                improve myself in this field.
+            </p>
+        </div>
+        <img src="images/Adsız.png" alt="">
+    </section>
+    <section id="section03" class="demo">
+        <h1>Projects</h1>
+        <div class="projects">
+            <div class="project">
+                <div class="p1">
+                    <img src="images/oguz.png" alt="">
+                    <div class="projectinfo">
+                        <h3>Personal</h3>
+                        My old personal site designed fully responsive.
 
                     </div>
-
                 </div>
-                <div>
-
+                <div class="p1">
+                    <div class="link">
+                        <a href="index1.html">
+                            <i class='bx bx-desktop'></i>Click to view the project</a>
+                        <a href="https://github.com/Ozdemiroguz/html-css-personal-website-slideshow-">
+                            <i class='bx bxl-github'></i></i>Click to review the codes</a>
+                    </div>
+                    <i class='bx bxs-user-circle'></i>
                 </div>
             </div>
-            <div class="slide page4">
-                <h1>My projects</h1>
-                <div class="project">
+            <div class="project">
+                <div class="p1">
                     <img src="images/elif.png" alt="">
-                    <div class="info">
+                    <div class="projectinfo">
                         <h3>Personal</h3>
-                        <p>Website designed for the most beautiful
-                            smiling lady in the world.</p>
-                    </div>
-
-                    <div class="link">
-                        <a href="index2.html"><i class="fa fa-desktop" aria-hidden="true"></i> Click to view the project
-                        </a>
-                        <a href="https://github.com/Ozdemiroguz/html-css-personal-website-css-animation-"><i
-                                class="fa fa-github" aria-hidden="true"></i>Click to review the codes</a>
-
+                        Website designed for the most
+                        beautiful smiling lady in the world.
                     </div>
                 </div>
-                <div class="project">
+                <div class="p1">
+                    <div class="link">
+                        <a href="index2.html">
+                            <i class='bx bx-desktop'></i>Click to view the project</a>
+                        <a href="https://github.com/Ozdemiroguz/html-css-js-darkmode-slideshow-personal-website">
+                            <i class='bx bxl-github'></i></i>Click to review the codes</a>
+                    </div>
+                    <i class='bx bxs-user-circle'></i>
+                </div>
+            </div>
+            <div class="project">
+                <div class="p1">
                     <img src="images/qr.png" alt="">
-                    <div class="info">
-                        <h3>Qr Menu</h3>
-                        <p>My qr menu project that can move
-                            both vertically and horizontally,
-                            that I wrote using only
-                            html and css.</p>
-                    </div>
-
-                    <div class="link">
-                        <a href="index3.html"><i class="fa fa-desktop" aria-hidden="true"></i> Click to view the project
-                        </a>
-                        <a href="https://github.com/Ozdemiroguz/html-css-qr-menu-vert-and-horiz-move-"><i
-                                class="fa fa-github" aria-hidden="true"></i>Click to review the codes</a>
-
-                    </div>
-                </div>
-
-                <div class="project">
-                    <img src="images/ampulsite.png" alt="">
-                    <div class="info">
+                    <div class="projectinfo">
                         <h3>Personal</h3>
-                        <p>My personal website project that I wrote using hover effect in almost every element with html
-                            and css.</p>
+                        My qr menu project that can move
+                        both vertically and horizontally,
+                        that I wrote using only html and css
                     </div>
-
+                </div>
+                <div class="p1">
                     <div class="link">
-                        <a href="index1.html"><i class="fa fa-desktop" aria-hidden="true"></i> Click to view the project
-                        </a>
-                        <a href="https://github.com/Ozdemiroguz/html-css-personal-website-hover-effects-"><i
-                                class="fa fa-github" aria-hidden="true"></i>Click to review the codes</a>
+                        <a href="index3.html">
+                            <i class='bx bx-desktop'></i>Click to view the project</a>
+                        <a href="https://github.com/Ozdemiroguz/html-css-qr-menu-vert-and-horiz-move-">
+                            <i class='bx bxl-github'></i>Click to review the codes</a>
+                    </div>
+                    <i class='bx bxs-food-menu'></i>
+                </div>
+            </div>
 
+
+        </div>
+    </section>
+    <section id="section04" class="demo">
+        <div class="skilinfo">
+            <h1>Skills</h1>
+            <p>
+                I know that I am at the beginning of the road and I say continue to improve myself every day.
+
+
+            </p>
+        </div>
+
+        <div class="skills">
+            <div class="skill">
+                <i class='bx bxl-c-plus-plus'></i>
+
+                <div class="skillbar">
+                    <p>Html/Css
+                        <span>%50</span>
+                    </p>
+
+                    <div class="out ">
+                        <div class="in"></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="skill">
+                <i class='bx bxl-html5'></i>
+                <div class="skillbar">
+                    <p>Html/Css
+                        <span>%80</span>
+                    </p>
+
+                    <div class="out ">
+                        <div class="in1"></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="skill">
+                <i class='bx bxl-css3'></i>
+                <div class="skillbar">
+                    <p>Html/Css
+                        <span>%80</span>
+                    </p>
+
+                    <div class="out ">
+                        <div class="in1"></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="skill">
+                <i class='bx bxl-javascript'></i>
+                <div class="skillbar">
+                    <p>Html/Css
+                        <span>%20</span>
+                    </p>
+
+                    <div class="out ">
+                        <div class="in2"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="contact">
+            <div class="contact-title">
+                <h1>Let's <i class='bx bxs-envelope'></i> Contact</h1>
+            </div>
+            <div class="contact-info">
+                <div>
+                    <p>Oguzhan Ozdemir </p>
+                </div>
+                <div>
+                    <p>Istanbul,TR</p>
+                </div>
+                <div class="intro-soc">
+                    <div class="intro-soc__item">
+                        <a href="https://twitter.com/birsalbe" title="" class="intro-soc__link"><i
+                                class='bx bxl-twitter'></i></a>
+                    </div>
+                    <div class="intro-soc__item">
+                        <a href="https://github.com/Ozdemiroguz" title="" class="intro-soc__link"><i
+                                class='bx bxl-github'></i></a>
+                    </div>
+                    <div class="intro-soc__item">
+                        <a href="https://www.instagram.com/0zdemiroguzhan/" title="" class="intro-soc__link"><i
+                                class='bx bxl-instagram'></i></a>
+                    </div>
+                    <div class="intro-soc__item">
+                        <a href="https://open.spotify.com/user/kbl3trzdzaw2ln763xtt66ekz?si=66bea948982549ea" title=""
+                            class="intro-soc__link"><i class='bx bxl-spotify'></i></a>
+                    </div>
+                    <div class="intro-soc__item">
+                        <a href="#" title="" class="intro-soc__link"><i class='bx bxl-gmail'></i><a>
                     </div>
                 </div>
-
-            </div>
-            <div class="slide page5">
-                <div>
-                    <h1>Contact Me</h1>
-                </div>
-                <ul>
-                    <li> <i class="fa fa-instagram"> @0zdemiroguzhan</i></li>
-                    <li> <i class="fa fa-facebook"> Oguzhan Ozdemir</i></li>
-                    <li> <i class="fa fa-twitter"> @birsalbe</i></li>
-                    <li> <i class="fa fab fa-spotify"> @7ough</i></li>
-                    <li> <i class="fa fab fa-google"> ozdemiroguzhan55@gmail.com</i></li>
-
-
-                </ul>
-
-
-
             </div>
         </div>
-        <div class="navigation">
-            <label for="r1" class="bar"></label>
-            <label for="r2" class="bar"></label>
-            <label for="r3" class="bar"></label>
-            <label for="r4" class="bar"></label>
-            <label for="r5" class="bar"></label>
+        <p> designed by Oguzhan Ozdemir</p>
 
-        </div>
-    </div>
+    </footer>
 
-    <div class="bottom-section">
-        @2022 Oguzhan Ozdemir </div>
+
+
+
+    <script src="script.js"></script>
 
 </body>
+
 
 </html>
