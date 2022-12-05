@@ -352,7 +352,7 @@ section h5 {
 }
 
 #section02 img {
-
+    margin-left: 30px;
     height: 600px;
     box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.6);
     border: solid;
@@ -509,18 +509,18 @@ section h5 {
     position: absolute;
     background-color: black;
     height: 15px;
-    width: 50%;
+    width: 35%;
 }
 
 .in1 {
-    width: 80%;
+    width: 50%;
     position: absolute;
     background-color: black;
     height: 15px;
 }
 
 .in2 {
-    width: 20%;
+    width: 30%;
     position: absolute;
     background-color: black;
     height: 15px;
@@ -586,7 +586,7 @@ footer p {
 }
 
 .is-black section {
-    background: rgb(0, 0, 0);
+    background: #1f1f1f;
 }
 
 .is-black .abaout-info {
@@ -604,30 +604,30 @@ footer p {
 .is-black section h5,
 .is-black section i {
     color: white;
-    text-shadow: 5px 5px 3px rgba(255, 255, 255, 0.2);
+    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
 }
 
 .is-black #section02 img {
-    box-shadow: 10px 10px 5px rgba(255, 255, 255, 0.5);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
     border: solid;
     border-color: white;
 
 }
 
 .is-black #section02 img:hover {
-    box-shadow: 15px 15px 5px rgba(255, 255, 255, 0.5);
+    box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.5);
 
 }
 
 .is-black #section03 img {
-    box-shadow: -5px 5px 3px rgba(255, 255, 255, 0.5);
+    box-shadow: -5px 5px 3px rgba(0, 0, 0, 0.5);
     border: solid;
     border-color: white;
 
 }
 
 .is-black #section03 img:hover {
-    box-shadow: -10px 10px 3px rgba(255, 255, 255, 0.5);
+    box-shadow: -10px 10px 3px rgba(0, 0, 0, 0.5);
 
 }
 
