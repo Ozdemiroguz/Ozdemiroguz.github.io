@@ -57,7 +57,7 @@ async function check() {
         }
     }
     else {
-        await delay(700);
+        await delay(500);
         val[ctr.indexS[0]].firstElementChild.style.transform = 'rotateY(0deg)';
         val[ctr.indexS[1]].firstElementChild.style.transform = 'rotateY(0deg)';
         ctr.cardS = [];
