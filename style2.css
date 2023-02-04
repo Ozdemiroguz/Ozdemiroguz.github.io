@@ -43,6 +43,7 @@ div.game {
 .grid-cell button {
     width: 160px;
     transition: all 1s;
+
 }
 
 .flip-card {
@@ -67,6 +68,9 @@ div.game {
     text-align: center;
     transition: transform 0.8s, opacity 0.4s;
     transform-style: preserve-3d;
+    border-radius: 5px;
+
+
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -84,6 +88,8 @@ div.game {
     -webkit-backface-visibility: hidden;
     /* Safari */
     backface-visibility: hidden;
+    border-radius: 5px;
+
 }
 
 /* Style the front side (fallback if image is missing) */

@@ -1,0 +1,168 @@
+@import"https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap";
+
+* {
+    margin: 0;
+
+    font-family: "Poppins", arial;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent), url(images/tercsgo_huc01d3a403c050d47715d6aeed15b344f_839613_1920x1080_resize_q75_lanczos.jpg);
+    position: relative;
+
+
+}
+
+
+
+.header {
+    display: grid;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left-margin,
+.right-margin {
+    flex: 1;
+}
+
+
+.left-section {
+    flex: 8;
+}
+
+.left-section a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+
+}
+
+.left-section a:first-child {
+    font-style: italic;
+
+    font-size: 40px;
+
+}
+
+.left-section a:last-child {
+    font-size: 20px;
+    margin-left: -5px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-section a {
+    margin-right: 40px;
+    font-size: 12px;
+    color: white;
+    text-decoration-line: none;
+
+}
+
+.right-section a:hover {
+    text-decoration: double;
+    text-decoration-line: underline;
+
+
+}
+
+.right-section img {
+    height: 30px;
+    cursor: pointer;
+}
+
+.middle {
+    position: absolute;
+    bottom: 25%;
+    left: 7%;
+    margin-left: 6px;
+    font-size: 55px;
+    letter-spacing: 0;
+    color: white;
+}
+
+
+
+.middle h1 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 200px;
+    margin-top: -50px;
+    margin-bottom: -50px;
+    margin-left: -6px;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    background: url(images/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+
+}
+
+.middle h1 span {
+    font-size: 120px;
+    font-style: normal;
+}
+
+@keyframes back {
+    100% {
+        background-position: 2000px 0;
+
+    }
+}
+
+.bottom-section {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    bottom: 10%;
+    left: 7%;
+}
+
+.bottom-section button {
+    display: flex;
+    align-items: center;
+    border: solid;
+    border-width: 2px;
+    background-color: transparent;
+    color: white;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    font-size: 12px;
+    margin-right: 15px;
+
+}
+
+
+.bottom-section p {
+    width: 300px;
+    color: white;
+    font-size: 12px;
+}
+
+.bottom-section span {
+    font-size: 25px;
+    line-height: 15px;
+    margin-left: 5px;
+}
+
+button:hover {
+    transform: translate(5px, -5px);
+}

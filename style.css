@@ -27,7 +27,7 @@
     --primary-color: #4B6587;
     --white-color: #FFFFFF;
     --text-color: #484848;
-    --gray-color: #888888;
+    --gray-color: #121212;
     --invert-primary-color: #4B6587;
     --invert-text-color: #FFFFFF;
     --invert-bg-color: #2B3137;
@@ -402,6 +402,7 @@ section h5 {
 }
 
 .p1 {
+    padding-bottom: 15px;
     display: flex;
     flex-direction: row;
     column-gap: 20px;
@@ -421,6 +422,7 @@ section h5 {
     font-size: 120px;
 }
 
+
 .project img {
     height: 140px;
     box-shadow: -10px 10px 3px rgba(0, 0, 0, 0.6);
@@ -429,7 +431,7 @@ section h5 {
     border-color: rgb(0, 0, 0);
     filter: gray;
     -webkit-filter: grayscale(1);
-    transition: all 400ms;
+    transition: all .4s;
 }
 
 .project img:hover {
@@ -440,6 +442,8 @@ section h5 {
     -webkit-filter: grayscale(0);
 
 }
+
+
 
 .projectinfo {
 
@@ -633,7 +637,7 @@ footer p {
 }
 
 .is-black footer {
-    background-color: black;
+    background-color: #1f1f1f;
     color: white;
 }
 
@@ -749,7 +753,8 @@ footer p {
     .bxl-c-plus-plus,
     .bxl-html5,
     .bxl-css3,
-    .bxl-javascript {
+    .bxl-javascript,
+    .bxs-joystick {
         font-size: 80px;
     }
 

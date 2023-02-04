@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <title>Number Guesser</title>
+</head>
+
+<body class="bg-dark">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mx auto">
+                <div class="card card-body text-center m-5">
+                    <div class="guesser-form">
+                        <form id="start-form" class="start-form pb-4">
+                            <h1>Number Guesser</h1>
+                            <p id="start-text">Decide which numbers to guess between before you start.</p>
+                            <div class="alert alert-danger pb-4" role="alert" id="empty-number" style="display: none" ;>
+                                <strong>Opss!</strong>Chek your numbers.
+                            </div>
+                            <div class="input-group pb-5">
+                                <span class="input-group-addon ">Min</span>
+                                <input type="number" class="form-control " id="min" placeholder="Enter a min value">
+                                <span class="input-group-addon">Max</span>
+                                <input type="number" class="form-control " id="max" placeholder="Enter a max value">
+                            </div>
+                            <div class="form-group pt-4" id="start-button">
+                                <input type="submit" class="btn btn-primary btn-lg " id="start" value="Start">
+                            </div>
+                        </form>
+                        <form class="game-input d-none" id="game-form">
+                            <h1 id="gues" style="font-size: 72px;">?</h1>
+                            <h5>You have <span class="badge badge-info" id="guesses-left">10</span> guesses left </h5>
+                            <div class="alert alert-danger pb-4" role="alert" id="danger" style="display: none;">
+                                <strong>Oh snap!</strong> Try again with a new number.
+                            </div>
+                            <div class="alert alert-success" role="alert" id="succes" style="display: none" ;>
+                                <strong>Congratulations!</strong>
+                            </div>
+                            <div class=" input-group pt-4 pb-4" id="guess-input">
+                                <input type="number" class="form-control" placeholder="Enter your guess number"
+                                    id="guess-number" aria-describedby="basic-addon1">
+                                <div class="input-group-append">
+                                    <input class="btn btn-success" value="Guess" type="submit">
+                                </div>
+                            </div>
+                            <a href="index7.html" id="reset-button" class="btn btn-danger mt-4 d-none">Reset</a>
+                    </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+    <script src="apps/app2.js"></script>
+</body>
+
+</html>
