@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>Snake Game</title>
+    <link rel="icon" href="images/favicon-32x32.png">
+    <script src="apps/snake.js"></script>
+</head>
+
+<body style="text-align: center; align-items: center; padding: 0; margin: 0;" class="bg-dark ">
+
+
+    <h1 style="color: white;
+    padding: 10px; font-size: 48px;">Snake Game</h1>
+
+    <div id="gameOver"
+        style="  position:absolute; width: 100%; height: 500px; padding-top: 10vh; display: flex; justify-content: center; visibility: hidden; transition: all 1ms;">
+
+        <div style="    background-color: rgba(0,0,0,.7);
+        width: 30%;">
+            <div id="overText" role="alert"
+                style="background:transparent;border: none; color: red; padding-bottom: 10px;">
+                <h1>Game Over!</h1>
+                <p> If you want, you can save your score by typing your name.</p>
+
+            </div>
+            <div class="container" style=" display: flex; justify-content: center; ">
+
+
+                <form id="gameOver-form">
+                    <div class="input-group">
+                        <span class="input-group-addon">Name</span>
+                        <input type="text" class="form-control" id="name" placeholder="Enter the name">
+
+                    </div>
+
+                    <input id="saveScore" type="submit" value="Save the Score" class="btn btn-primary mt-2">
+                    <a class="btn btn-primary mt-2" href="index.html">Reset</a>
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <canvas id="board" style="padding: 0;margin: 0;  border-width: 5px; border: solid;"></canvas><br>
+    <div class="card text-white bg-primary mb-3 d-inline-block"
+        style="max-width: 20rem; position: absolute; right: 15%; top: 25%;" id="score">
+        <div class="card-header">Score</div>
+        <h1>0</h1>
+
+    </div>
+    <div style="margin: 20px 0px;" id="control">
+        <button type="button" style="padding: 10px 15px;" class="btn btn-primary bx bxs-up-arrow " id="up"></button><br>
+        <button type="button" style="padding: 10px 15px;" class="btn btn-primary bx bxs-left-arrow" id="left"></button>
+        <button type="button" style="padding: 10px 15px;" disabled
+            class="btn btn-primary mt-1 mb-1 bx bxs-circle"></button>
+
+        <button type="button" style="padding: 10px 15px;" class="btn btn-primary bx bxs-right-arrow "
+            id="right"></button> <br>
+        <button type="button" style="padding: 10px 15px;" class="btn btn-primary bx bxs-down-arrow" id="down"></button>
+
+    </div>
+
+    <div class="card text-white bg-primary mb-3 d-inline-block" id="scoreTable"
+        style="max-width: 20rem; position: absolute; left: 5%; top: 25%;">
+        <div class="card-header">High Score</div>
+        <table class=" table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Date</th>
+                    <th>Name</th>
+                    <th>Skor</th>
+                </tr>
+            </thead>
+            <tbody id="tableBoddy">
+                <tr id="table">
+                    <th scope="row">1</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </div>
+
+
+
+</body>
+
+</html>

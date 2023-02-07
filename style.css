@@ -197,7 +197,6 @@ section h1 {
 section h3 {
     font: normal 600 54px/1 'Josefin Sans', sans-serif;
     white-space: nowrap;
-    text-shadow: 5px 5px 3px rgba(0, 0, 0, .6);
     transition: 400ms all;
 
 }
@@ -205,7 +204,6 @@ section h3 {
 section h5 {
     font: normal 600 24px/1 'Josefin Sans', sans-serif;
     white-space: nowrap;
-    text-shadow: 5px 5px 3px rgba(0, 0, 0, .6);
     transition: 400ms all;
 
 }
@@ -609,7 +607,6 @@ footer p {
 .is-black section h5,
 .is-black section i {
     color: white;
-    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
 }
 
 .is-black #section02 img {
@@ -734,6 +731,7 @@ footer p {
     }
 
     #section02 img {
+        margin-left: -30px;
         height: 300px;
     }
 
