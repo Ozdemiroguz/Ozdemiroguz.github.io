@@ -19,7 +19,28 @@ function getBreedList() {
     }).catch(function (err) {
         console.log(err);
     })
+    if (screen.width < 767) {
+        document.getElementById("container").style.top = "7vh";
+        document.getElementById("container").style.maxWidth = "90%"
+        document.querySelector("#container img").style.maxHeight = "40vh"
 
+
+        document.getElementById("container").style.left = "5%";
+
+        document.getElementById("card").style.width = "90%";
+        document.getElementById("card").style.maxHeight = "70vh";
+        document.getElementById("card").style.top = "55vh";
+        document.getElementById("card").style.marginBottom = "5vh";
+
+
+
+
+
+
+
+
+
+    }
 }
 function seOption(dogs) {
     var select = document.querySelector(".custom-select");
@@ -48,6 +69,8 @@ function setPicture(e) {
         document.getElementById("screen").src = image.message;
         document.getElementById("screen1").src = image.message;
         document.getElementById("link").innerText = image.message;
+        document.getElementById("link").href = image.message;
+
 
 
     }).catch(function (err) {
