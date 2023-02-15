@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Dictionary</title>
+    <link rel="icon" href="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="icon" href="images/book.png">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body class="bg-dark container">
+    <h1 style="text-align: center;color: white; ">Dictionary Project</h1>
+
+    <div class="container" style="padding:30px 20px; box-shadow: 0 0 0 2px rgb(0, 0, 0), 8px 8px 0 0 rgb(0, 0, 0); border-radius: 0px;position: absolute; max-width: 25%; left: 3%; top: 10vh; margin: 0;
+    color: white ;" id="dictionary">
+        <h1 style="text-align: center;">Dictionary</h1>
+        <div class="form-group pt-4">
+            <h3>Search</h3>
+
+            <div class="input-field col s12">
+
+                <input type="text" id="wordInput">
+                <label for="filter">Search the word in dictionary</label>
+            </div>
+        </div>
+        <div id="defaultWord" style="padding: 0 0 15px 10px ;display: none;">
+            <h1>Wood </h1>
+            <div class="btn-group btn-group-sm pb-3" role="group" aria-label="Basic example">
+                <button type="button" id="wordType" class="btn btn-secondary ">noun</button>
+                <button type="button" id="wordType" class="btn btn-secondary">verb</button>
+                <button type="button" id="wordType" class="btn btn-secondary">adjective</button>
+                <button type="button" id="wordType" class="btn btn-secondary">adverb</button>
+
+            </div>
+            <p>
+                The substance making up the
+                central part of the trunk and
+                branches of a
+                tree. Used
+                as a material for construction, to manufacture various items, etc. or as fuel
+            </p>
+
+
+        </div>
+        <div class="alert " style="display: none;">
+            <strong>Oh snap!</strong> Word couldn't find Please check your word!
+        </div>
+
+        <a type="submit" id="search" class="btn ">Search</a>
+        <a type="submit" id="save" class=" btn ">Save </a>
+        <div class="form-group pt-4">
+            <h3>Filter</h3>
+
+            <div class="input-field col s12">
+                <input type="text" id="filterInput">
+                <label for="filter">Filter the word in board</label>
+            </div>
+            <div class="btn-group btn-group-sm pb-3" id="typeFilter" aria-label="Basic example">
+                <button type="button" id="wordTypeFilter" class="btn btn-secondary ">all</button>
+                <button type="button" id="wordTypeFilter" class="btn btn-secondary ">noun</button>
+                <button type="button" id="wordTypeFilter" class="btn btn-secondary">verb</button>
+                <button type="button" id="wordTypeFilter" class="btn btn-secondary">adjective</button>
+                <button type="button" i id="wordTypeFilter" class="btn btn-secondary">adverb</button>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+    <div style=" position: absolute; left: 30%; height: 10vh; top: 10vh; margin: 0; max-width: 60%; box-shadow: 0 0 0 2px rgb(0, 0,
+    0), 8px 0px 0 0 rgb(0, 0, 0); color: white; display: flex; flex-direction: row; justify-content: center; "
+        class=" container " id="headContainer">
+        <div class="form-group pt-4" style="position: absolute; left: 20px;">
+            <a type="submit" id="clear" class=" btn">Clear </a>
+            <a type="submit" id="sort" class=" btn">sort </a>
+
+
+        </div>
+        <h1 style="text-align: center; color: white; margin-top: 10px;">Word Board</h1>
+    </div>
+    <div class=" container " style=" position: absolute; left: 30%; min-height: 300px; top: 20vh; margin: 0; max-width: 60%; box-shadow: 0 0 0 2px rgb(0, 0,
+                0), 8px 8px 0 0 rgb(0, 0, 0);" id="container">
+        <!-- Tip: use bg-* and text-* utilities to style the card -->
+        <div class="text-white mb-3 mr-3 mt-3 " id="wordCard"
+            style="max-width: 20rem; box-shadow: 0 0 0 2px rgb(0, 0, 0), 8px 8px 0 0 rgb(0, 0, 0);background-color: #26a69a; display:none;">
+            <div class="card-header"
+                style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
+                <h1>word</h1>
+                <div style="display: flex;justify-content: row; padding: 0 10px 0 10px;">
+                    <button class="btn bx bxs-hide " id="word"></button>
+                    <button class="btn bx bxs-trash ml-2" id="word"></button>
+                </div>
+
+
+            </div>
+            <div class="card-body" style="display: block;">
+
+                <table class="table table-reflow">
+                    <tbody>
+                        <tr>
+                            <th scope="row">PartOfSpeech</th>
+                            <td></td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Definition</th>
+                            <td></td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Example</th>
+                            <td></td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">synonym</th>
+                            <td></td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">antonym</th>
+                            <td></td>
+
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src=" https://code.jquery.com/jquery-2.2.4.js"
+        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/
+materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="apps/dictionary.js"></script>
+</body>
+
+
+</html>
