@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Fetch api</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body style="display: flex;flex-direction: column;align-items: center; background-image: url(Images/flag.jpg); ">
+    <div
+        style=" margin-top:3vh; text-align: center; width: 200px; color: white; background: rgba(235, 72, 118, 0.42); border-radius: 16px; box-shadow: 0 4px 30px rgba(0, 0, 0, 1);backdrop-filter: blur(15px);-webkit-backdrop-filter: blur(15px);">
+        <h1>Quiz</h1>
+    </div>
+    <div class="container" id="cards"
+        style=" margin: 20px 10px; padding: 20px 10px; background: rgba(235, 72, 118, 0.42); border-radius: 16px; box-shadow: 0 4px 30px rgba(0, 0, 0, 1);backdrop-filter: blur(15px);-webkit-backdrop-filter: blur(15px);">
+        <div class="card" id="card"
+            style=" width: 160px; display: inline-block; background-color: white; margin:0 0 20px 20px ; border:none; display: none;">
+            <img src="" style="width: 160px;">
+            <div style="text-align: center;">
+                <h5>a</h5>
+            </div>
+        </div>
+        <script>
+
+            let cards = document.getElementById("cards")
+            getJSONFile();
+            function getJSONFile() {
+                fetch("countries.json").then(function (response) {
+                    return response.json()
+                }).then(function (datas) {
+                    datas.forEach(element => {
+                        let card = document.getElementById("card").cloneNode(true);
+                        card.style.display = "inline-block";
+                        card.id = element.country_name;
+                        card.children[0].src = element.country_logo;
+                        card.children[1].children[0].innerHTML = element.country_name
+                        cards.append(card);
+
+                    });
+
+                    //document.getElementById("screen").innerText += data;
+                }).catch(function (err) {
+                    console.log(err);
+                })
+            }
+        </script>
+
+
+    </div>
+</body>
+
+</html>

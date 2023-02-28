@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="icon" href="images/question.png">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        body {
+            background-image: url("images/color-interrogation-symbols.jpg");
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+
+        a,
+        button,
+        .start {
+            border: solid;
+            color: white;
+            background-color: transparent;
+            padding: 8px 16px;
+            border-radius: 5px;
+            transition: transform 0.3s;
+            cursor: pointer;
+            box-shadow: -3px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        a:hover,
+        button:hover {
+            opacity: 0.7;
+            text-decoration: none;
+            color: white;
+
+        }
+
+        #choices a {
+            padding: 16px 16px;
+
+        }
+
+        a:active,
+        button:active {
+            opacity: 0.5;
+            box-shadow: -3px 2px rgba(0, 0, 0, 0.2);
+            transform: translateY(4px);
+
+        }
+
+        #flag:hover>#body {
+            /*background-image: url("flag.jpg");*/
+            width: 1000px;
+
+        }
+
+        .alert {
+            background-color: transparent;
+            border: none;
+            font-weight: bolder;
+            padding: 10px 0 0 0;
+            margin: 0;
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            display: none;
+        }
+
+
+
+
+
+        @media screen and (min-width: 768px) {
+            #container {
+                max-width: 48rem;
+            }
+        }
+
+        @media screen and (min-width: 576px) {
+            #container {
+                max-width: 23rem;
+            }
+        }
+    </style>
+</head>
+
+<body id="boddy">
+    <div
+        style=" margin-top:3vh; text-align: center; width: 200px; color: white; background: rgba(235, 72, 118, 0.42); border-radius: 16px; box-shadow: 0 4px 30px rgba(0, 0, 0, 1);backdrop-filter: blur(15px);-webkit-backdrop-filter: blur(15px);">
+        <h1>Quiz</h1>
+    </div>
+    <div class="container" id="cards"
+        style=" align-items: center; justify-content: center;  margin: 0; color:  white; width: 100%;">
+        <div
+            style="height: 500px; max-width: 19rem;   display: inline-block; padding: 20px 30px; margin:20px 0px 0 20px;  
+           background: #f4b53f6b; border-radius: 16px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);backdrop-filter: blur(15px);-webkit-backdrop-filter: blur(15px);">
+            <div style="align-items: center; display: flex;flex-direction: column;">
+                <img style=" width: 140px; height: 140px; ;border-radius:50%; border:solid;margin-bottom: 20px;"
+                    src="images/flag.jpg">
+            </div>
+            <div>
+                <h1 style="font-weight: bolder; ">Country Flag Quiz</h1>
+                <div style="width: 16rem; height: 100px; ">Do you want to test how familiar you
+                    are with the flags of 169 different
+                    countries?
+                </div>
+                <div
+                    style="align-items: center; display: flex; flex-direction: row; justify-content: space-evenly; margin-top: 20px;">
+                    <a type="submit" id="Flag">Start</a>
+                    <a type=" button" href="flag.html">FlagLibrary</a>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="teamLogo"
+            style="height: 500px; max-width: 19rem;  display: inline-block; padding: 20px 30px; margin:20px 0 0 20px;background: rgba(235, 72, 118, 0.42); border-radius: 16px; box-shadow: 0 4px 30px rgba(0, 0, 0, 1);backdrop-filter: blur(15px);-webkit-backdrop-filter: blur(15px);">
+            <div style="align-items: center; display: flex;flex-direction: column;">
+                <img style=" width: 140px;height: 140px; ;border-radius:50%; border:solid;margin-bottom: 20px;"
+                    src="images/teamLogo.jpg">
+            </div>
+            <div>
+                <h1 style="font-weight: bolder; "> Football Logo Quiz</h1>
+                <div style="width: 16rem; height: 100px; ">Would you like to test how familiar you are with the logos of
+                    football teams?</div>
+                <div
+                    style="align-items: center; display: flex; flex-direction: row; justify-content: space-evenly; margin-top: 20px;">
+                    <a type="">Coming Soon</a>
+
+
+                </div>
+            </div>
+        </div>
+        <div id="nbaLogo"
+            style="height: 500px; max-width: 19rem;  display: inline-block; padding: 20px 30px; margin:20px 20px;background: rgba(123, 94, 199, 0.42); border-radius: 16px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);backdrop-filter: blur(15px);-webkit-backdrop-filter: blur(15px);">
+            <div style="align-items: center; display: flex;flex-direction: column;">
+                <img style=" width: 140px;height: 140px; ;border-radius:50%; border:solid;margin-bottom: 20px;"
+                    src="images/nba.jpg">
+            </div>
+            <div>
+                <h1 style="font-weight: bolder; ">NBA Logo Quiz</h1>
+                <div style="width: 16rem; height: 100px; ">Would you like to test how familiar you are with the logos of
+                    NBA teams?
+                </div>
+                <div
+                    style="align-items: center; display: flex; flex-direction: row; justify-content: space-evenly; margin-top: 20px;">
+                    <a type="">Coming Soon</a>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container" id="startingScreen"
+        style=" width: 90%; margin-right: 20px; margin-left: 20px; margin-top:3vh;height: 85vh; display: none; justify-content: center; flex-direction: column; align-items: center; background: rgba(244, 181, 63, 0.42); border-radius: 16px; box-shadow: 0 4px 30px rgba(0, 0, 0, 1);backdrop-filter: blur(15px);-webkit-backdrop-filter: blur(15px); ">
+
+        <form id="start-form" style="text-align: center; color: white; ">
+            <img style=" width: 140px; height: 140px; ;border-radius:50%; border:solid;margin-bottom: 20px;"
+                src="images/flag.jpg">
+            <p>(If you start the game without entering your name, your score will not be saved!!!)</p>
+            <div class="form-group">
+
+                <div class="input-group">
+                    <span class="input-group-addon "><i class='bx bxs-user-circle'></i></span>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+            </div>
+
+            <div class=" form-group">
+                <input type="submit" value="Start" class="start">
+            </div>
+        </form>
+        <div id="gameStarting"
+            style="text-align: center; display: flex; flex-direction: column; visibility: hidden; color: white;">
+            <h1>Game Starting...</h1>
+            <h1>3</h1>
+        </div>
+
+        <div class="container" id="quizScreen"
+            style=" height: 80vh; max-width: 90%; color: white;   display: none; flex-direction: column; align-items: center; padding: 80px 15px 0 0; margin:0px 15px 20px 15px;">
+            <div id="timer" style="color: white;  position: absolute; left: 20px; top: 15px;">
+                <i class='bx bxs-hourglass-bottom' style="font-size: 36px;"></i>
+                <p style="font-size: 24px; ">0:10</p>
+            </div>
+            <h2 id="question">Question 1</h2>
+            <img src="https://apiv2.allsportsapi.com/logo/logo_country/10_albania.png" id="quizImage"
+                style="border: solid; color: white; width: 200px; height: 200px; border-radius: 50%;">
+            <div class="alert alert-success" id="correctAlert" role="alert">
+                <strong>Well done!</strong> You can continue with the next question.
+            </div>
+            <div class="alert alert-danger" id="timeAlert" role="alert">
+                <strong>Time is up!</strong> Your score is 15, you can make a higher score by starting the new quiz.
+            </div>
+            <div class="alert alert-danger" id="wrongAlert" role="alert">
+                <strong>Wrong answer!</strong> Your score is 15, you can make a higher score by starting the new quiz.
+            </div>
+            <div id="choices" style=" margin-top: 18vh; width: 90%;  display: grid;
+        grid-template-columns: 50% 50% ; gap: 20px;">
+                <button>choice</button>
+                <button>choice</button>
+                <button>choice</button>
+                <button>choice</button>
+
+
+            </div>
+            <div style="position: absolute; top: 15px; right: 30px; ">
+                <a id="next/new" style=" visibility: hidden; ">Next</a>
+                <a id="scoreTable">Score Table</a>
+                <div id="table"
+                    style=" display: none; position: absolute; top: 20px; right: 0; border: solid; border-radius: 16px; margin: 20px 0 0 0; z-index: 2;  background: rgba(244, 181, 63, 0.42); ; box-shadow: 0 4px 30px rgba(0, 0, 0, 1);backdrop-filter: blur(20px);-webkit-backdrop-filter: blur(20px);">
+                    <table class=" table">
+                        <thead>
+                            <tr>
+                                <th style="border: none;">#</th>
+                                <th style="border: none;">Name</th>
+                                <th style="border: none;">Skor</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBoddy">
+                            <tr id="table">
+                                <th scope="row">1</th>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="app.js"></script>
+</body>
+
+
+</html>
