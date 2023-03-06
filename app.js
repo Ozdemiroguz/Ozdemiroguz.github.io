@@ -16,6 +16,8 @@ let timeAlert = document.getElementById("timeAlert");
 let wrongAlert = document.getElementById("wrongAlert");
 document.getElementById("scoreTable").addEventListener("click", tableDisplay)
 document.getElementById("Flag").addEventListener("click", playQuiz);
+document.getElementById("NBA").addEventListener("click", playQuiz);
+
 next_new.addEventListener("click", setChoices);
 startForm.addEventListener("submit", start);
 let time = 11;
@@ -85,7 +87,8 @@ function start(e) {
             startingScreen.style.display = "flex";
             time = 3;
             myInterval = setInterval(startCountdown, 1000)
-            getJSONFile();
+            e.target.id == "Flag" ? getJSONFile("countries.json") : getJSONFile("nba.json");
+
         }
     }
     else {
@@ -95,7 +98,7 @@ function start(e) {
         startingScreen.style.display = "flex";
         time = 2
         myInterval = setInterval(startCountdown, 1000)
-        getJSONFile();
+        e.target.id == "Flag" ? getJSONFile("countries.json") : getJSONFile("nba.json");
     }
     e.preventDefault();
 }
@@ -133,24 +136,31 @@ function setChoices() {
 
     correctChoice = Math.floor(Math.random() * 4);
     let indexs = [];
+    if (datas.length < 6)
+        player.quiz == "Flag" ? getJSONFile("countries.json") : getJSONFile("nba.json");
+
     while (indexs.length < 4) {
+
         indexs.push(Math.floor(Math.random() * datas.length))
         indexs = Array.from(new Set(indexs));
     }
+
+
+
     for (let i = 0; i < 4; i++) {
         let index = indexs[i];
         if (i == correctChoice) {
             correctAnswer = datas[index];
-            choices.children[i].innerHTML = correctAnswer.country_name;
+            choices.children[i].innerHTML = correctAnswer.team_name;
             choices.children[i].disabled = false
             choices.children[i].style.backgroundColor = "transparent"
-            document.getElementById("quizImage").src = correctAnswer.country_logo;
+            document.getElementById("quizImage").src = correctAnswer.team_logo;
 
 
         }
         else {
 
-            choices.children[i].innerHTML = datas[index].country_name;
+            choices.children[i].innerHTML = datas[index].team_name;
             choices.children[i].disabled = false
             choices.children[i].style.backgroundColor = "transparent"
 
@@ -159,22 +169,43 @@ function setChoices() {
     datas.splice(indexs[correctChoice], 1);
 
 }
-function getJSONFile() {
-    fetch("countries.json").then(function (response) {
+function getJSONFile(file) {
+    fetch(file).then(function (response) {
         return response.json()
     }).then(function (data) {
         datas = data;
-
+        console.log(datas)
         //document.getElementById("screen").innerText += data;
     }).catch(function (err) {
         console.log(err);
     })
 }
+function getApi() {
+    const apiKey = '03e031b039799445943c5455efdff9e1499e936371d720cd4cb987676e3dbf13';
+    const leagueId = 787;
+    const apiUrl = `https://allsportsapi.com/api/basketball/?met=Teams&leagueId=${leagueId}&APIkey=${apiKey}`;
+
+    fetch(apiUrl)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log(data);
+            data = JSON.stringify(data);
+            console.log(data);
+
+            // İstediğiniz işlemleri yapın
+        })
+        .catch(error => console.error(error));
+}
 function checkAnswer(e) {
     for (let i = 0; i < 4; i++) {
         choices.children[i].disabled = true
     }
-    if (e.target.innerText == correctAnswer.country_name) {
+    if (e.target.innerText == correctAnswer.team_name) {
         correctAlert.style.display = "block"
         e.target.style.backgroundColor = "green";
         player.score++;

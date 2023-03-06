@@ -4,9 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width , initial-scale=1.0">
-    <title>Quiz</title>
-    <link rel="icon" href="images/question.png">
-
+    <title>Fetch api</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
         integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
@@ -68,7 +66,7 @@
             margin: 0;
             text-align: center;
             position: absolute;
-            top: 53%;
+            top: 55%;
             display: none;
         }
 
@@ -112,7 +110,7 @@
                 </div>
                 <div
                     style="align-items: center; display: flex; flex-direction: row; justify-content: space-evenly; margin-top: 20px;">
-                    <a type="submit" id="Flag">Start</a>
+                    <a type="submit" id="Flag">Play</a>
                     <a type=" button" href="flag.html">FlagLibrary</a>
 
                 </div>
@@ -126,7 +124,7 @@
                     src="images/teamLogo.jpg">
             </div>
             <div>
-                <h1 style="font-weight: bolder; "> Football Logo Quiz</h1>
+                <h1 style="font-weight: bolder; "> Team Logo Quiz</h1>
                 <div style="width: 16rem; height: 100px; ">Would you like to test how familiar you are with the logos of
                     football teams?</div>
                 <div
@@ -150,7 +148,7 @@
                 </div>
                 <div
                     style="align-items: center; display: flex; flex-direction: row; justify-content: space-evenly; margin-top: 20px;">
-                    <a type="">Coming Soon</a>
+                    <a type="" id="NBA">Play</a>
 
 
                 </div>
@@ -201,7 +199,7 @@
             <div class="alert alert-danger" id="wrongAlert" role="alert">
                 <strong>Wrong answer!</strong> Your score is 15, you can make a higher score by starting the new quiz.
             </div>
-            <div id="choices" style=" margin-top: 18vh; width: 90%;  display: grid;
+            <div id="choices" style=" margin-top: 20vh; width: 90%;  display: grid;
         grid-template-columns: 50% 50% ; gap: 20px;">
                 <button>choice</button>
                 <button>choice</button>

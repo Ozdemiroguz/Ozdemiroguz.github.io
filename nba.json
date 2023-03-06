@@ -1,0 +1,167 @@
+[
+    {
+        "team_key": "51",
+        "team_name": "Toronto Raptors",
+        "team_logo": "https://allsportsapi.com/logo-basketball/51_toronto-raptors.png"
+    },
+    {
+        "team_key": "52",
+        "team_name": "Boston Celtics",
+        "team_logo": "https://allsportsapi.com/logo-basketball/52_boston-celtics.png"
+    },
+    {
+        "team_key": "53",
+        "team_name": "Cleveland Cavaliers",
+        "team_logo": "https://allsportsapi.com/logo-basketball/53_cleveland-cavaliers.png"
+    },
+    {
+        "team_key": "54",
+        "team_name": "Indiana Pacers",
+        "team_logo": "https://allsportsapi.com/logo-basketball/54_indiana-pacers.png"
+    },
+    {
+        "team_key": "55",
+        "team_name": "Washington Wizards",
+        "team_logo": "https://allsportsapi.com/logo-basketball/55_washington-wizards.png"
+    },
+    {
+        "team_key": "56",
+        "team_name": "Philadelphia 76ers",
+        "team_logo": "https://allsportsapi.com/logo-basketball/56_philadelphia-76ers.png"
+    },
+    {
+        "team_key": "57",
+        "team_name": "Miami Heat",
+        "team_logo": "https://allsportsapi.com/logo-basketball/57_miami-heat.png"
+    },
+    {
+        "team_key": "58",
+        "team_name": "Milwaukee Bucks",
+        "team_logo": "https://allsportsapi.com/logo-basketball/58_milwaukee-bucks.png"
+    },
+    {
+        "team_key": "59",
+        "team_name": "Detroit Pistons",
+        "team_logo": "https://allsportsapi.com/logo-basketball/59_detroit-pistons.png"
+    },
+    {
+        "team_key": "60",
+        "team_name": "Charlotte Hornets",
+        "team_logo": "https://allsportsapi.com/logo-basketball/60_charlotte-hornets.png"
+    },
+    {
+        "team_key": "61",
+        "team_name": "New York Knicks",
+        "team_logo": "https://allsportsapi.com/logo-basketball/61_new-york-knicks.png"
+    },
+    {
+        "team_key": "62",
+        "team_name": "Chicago Bulls",
+        "team_logo": "https://allsportsapi.com/logo-basketball/62_chicago-bulls.png"
+    },
+    {
+        "team_key": "63",
+        "team_name": "Brooklyn Nets",
+        "team_logo": "https://allsportsapi.com/logo-basketball/63_brooklyn-nets.png"
+    },
+    {
+        "team_key": "64",
+        "team_name": "Atlanta Hawks",
+        "team_logo": "https://allsportsapi.com/logo-basketball/64_atlanta-hawks.png"
+    },
+    {
+        "team_key": "65",
+        "team_name": "Orlando Magic",
+        "team_logo": "https://allsportsapi.com/logo-basketball/65_orlando-magic.png"
+    },
+    {
+        "team_key": "66",
+        "team_name": "Houston Rockets",
+        "team_logo": "https://allsportsapi.com/logo-basketball/66_houston-rockets.png"
+    },
+    {
+        "team_key": "67",
+        "team_name": "Golden State Warriors",
+        "team_logo": "https://allsportsapi.com/logo-basketball/67_golden-state-warriors.png"
+    },
+    {
+        "team_key": "68",
+        "team_name": "Portland Trail Blazers",
+        "team_logo": "https://allsportsapi.com/logo-basketball/68_portland-trail-blazers.png"
+    },
+    {
+        "team_key": "69",
+        "team_name": "New Orleans Pelicans",
+        "team_logo": "https://allsportsapi.com/logo-basketball/69_new-orleans-pelicans.png"
+    },
+    {
+        "team_key": "70",
+        "team_name": "Oklahoma City Thunder",
+        "team_logo": "https://allsportsapi.com/logo-basketball/70_oklahoma-city-thunder.png"
+    },
+    {
+        "team_key": "71",
+        "team_name": "Minnesota Timberwolves",
+        "team_logo": "https://allsportsapi.com/logo-basketball/71_minnesota-timberwolves.png"
+    },
+    {
+        "team_key": "72",
+        "team_name": "San Antonio Spurs",
+        "team_logo": "https://allsportsapi.com/logo-basketball/72_san-antonio-spurs.png"
+    },
+    {
+        "team_key": "73",
+        "team_name": "Los Angeles Clippers",
+        "team_logo": "https://allsportsapi.com/logo-basketball/73_los-angeles-clippers.png"
+    },
+    {
+        "team_key": "74",
+        "team_name": "Utah Jazz",
+        "team_logo": "https://allsportsapi.com/logo-basketball/74_utah-jazz.png"
+    },
+    {
+        "team_key": "75",
+        "team_name": "Denver Nuggets",
+        "team_logo": "https://allsportsapi.com/logo-basketball/75_denver-nuggets.png"
+    },
+    {
+        "team_key": "76",
+        "team_name": "Los Angeles Lakers",
+        "team_logo": "https://allsportsapi.com/logo-basketball/76_los-angeles-lakers.png"
+    },
+    {
+        "team_key": "77",
+        "team_name": "Sacramento Kings",
+        "team_logo": "https://allsportsapi.com/logo-basketball/77_sacramento-kings.png"
+    },
+    {
+        "team_key": "78",
+        "team_name": "Dallas Mavericks",
+        "team_logo": "https://allsportsapi.com/logo-basketball/78_dallas-mavericks.png"
+    },
+    {
+        "team_key": "79",
+        "team_name": "Phoenix Suns",
+        "team_logo": "https://allsportsapi.com/logo-basketball/79_phoenix-suns.png"
+    },
+    {
+        "team_key": "80",
+        "team_name": "Memphis Grizzlies",
+        "team_logo": "https://allsportsapi.com/logo-basketball/80_memphis-grizzlies.png"
+    },
+    {
+        "team_key": "3108",
+        "team_name": "Team LeBron",
+        "team_logo": "https://allsportsapi.com/logo-basketball/3108_team-lebron.png"
+    },
+    {
+        "team_key": "3109",
+        "team_name": "Team Giannis",
+        "team_logo": "https://allsportsapi.com/logo-basketball/3109_team-giannis.png"
+    },
+    {
+        "team_key": "5038",
+        "team_name": "Ontario Clippers",
+        "team_logo": "images/Ontario_Clippers_logo.svg.png"
+    }
+]
