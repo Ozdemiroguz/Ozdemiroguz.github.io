@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="timer.css">
+    <title>Pomodro Timer</title>
+</head>
+
+<body>
+    <div class="hover">
+        <h1>What is the Pomodro </h1>
+        <p>The pomodoro technique is a time management framework that will improve your focus and productivity. It
+            encourages you to work within the time you have, rather than struggle against it.
+
+            You will finish each day with a sense of accomplishment by doing nothing more than working in 25-minute
+            blocks (called pomodoro sessions), followed by 5-minute breaks.
+
+            The pomodoro technique is popular with freelancers wanting to track time, students wishing to study more
+            effectively and anyone looking to improve themselves at work or in their personal projects.
+
+            The pomodoro technique is simple, yet very effective.</p>
+    </div>
+    <div class="main" style=" display: flex; align-items: center;">
+        <div class="setScreen">
+            <div id="timerMenu" class="timeTypes" style="display: flex; width: 100%; 
+                justify-content: space-evenly; font-size: 20px; padding: 20px 0;">
+                <button onclick="getMenuScreenTime(0)" class="timeType" id="0" style="background-color: transparent;">
+                    <p>Pomodro</p>
+                    <span style="width: 100%;"></span>
+                </button>
+                <button onclick="getMenuScreenTime(1)" type="click" class="timeType" id="0"
+                    style="background-color: transparent;">
+                    <p>Short Break</p>
+                    <span class="underline"></span>
+                </button>
+                <button onclick="getMenuScreenTime(2)" type="click" class="timeType" id="0"
+                    style="background-color: transparent;">
+                    <p>Long Break</p>
+                    <span class="underline"></span>
+                </button>
+                <button onclick="getMenuScreenTime(3)" type="click" class="timeType" id="0"
+                    style="background-color: transparent;">
+                    <p><i class='bx bxs-cog'></i> Settings</p>
+                    <span class=" underline"></span>
+                </button>
+
+
+            </div>
+            <div id="timer" style="display: flex; flex-direction: column; align-items: center;">
+                <div style="text-align: center;">
+                    <h1 id="timeScreen" style=" font-size: 120px; font-weight: bolder; padding: 30px 0 0 0;">30:00
+                    </h1>
+
+                    <h4 style="display: none;">Just Focus!</h4>
+                </div>
+                <div
+                    style="width: 40%;  display: flex; align-items: center; justify-content: center; padding: 20px 0px;">
+                    <a id="startButton"
+                        style="display: flex; border: solid; padding: 5px 15px; border-radius: 8px;  color: white; font-size: 24px;">Start</a>
+                    <div id="pauseReset" style="display: none; align-items: center; ">
+                        <a id="playPause" style="font-size: 64px;" class="bx bx-pause"></a>
+                        <a id="resetButton" style="font-size: 48px; padding: 6px;" class="bx bx-revision"></a>
+                    </div>
+
+
+                </div>
+            </div>
+            <div style="width: 95%; display: none;" id="settings">
+                <div style="display: flex; width: 100%; ; ">
+
+                    <div style="flex: 3; padding: 10px;">
+                        <h3>Timer</h3>
+                        <div style=" border-radius: 4px; border: solid;padding: 5px 0 5px 10px; ">
+                            <span>
+                                Pomodoro Minutes:
+                            </span>
+                            <input id="pomodro" type="number" min="0" max="60" value="30"
+                                style="width: 50px; background-color: transparent; border: none; color: white;">
+
+                        </div>
+                        <div style=" margin-top: 10px; border-radius: 4px; border: solid;padding: 5px 0 5px 10px; ">
+                            <span>
+                                Short Break Minutes:
+                            </span>
+                            <input id="short" type="number" min="0" max="60" value="5"
+                                style="width: 50px; background-color: transparent; border: none; color: white;">
+
+                        </div>
+                        <div style=" margin-top: 10px;border-radius: 4px; border: solid;padding: 5px 0 5px 10px; ">
+                            <span>
+                                Long Break Minutes:
+                            </span>
+                            <input id="long" type="number" min="0" max="60" value="10"
+                                style="  width: 50px; background-color: transparent; border: none; color: white;">
+
+                        </div>
+                    </div>
+                    <div style="  padding: 10px 10px 0 20px ;">
+                        <h3>Sounds</h3>
+                        <div style="margin-bottom:10px; display: flex; align-items: center;">
+                            <p style="margin:0 20px 3px 0;">Alert Volume</p>
+                            <i class='bx bxs-volume-low'></i>
+                            <input id="volumeInput" class="volume" type="range">
+                            <i class='bx bxs-volume-full'></i>
+                        </div>
+                        <div>
+                            <label for="cars">
+                                Select alert sound:</label>
+
+                            <select id="alerts">
+                                <option value="alerts/Alarm Kebakaran.mp3">Alarm Kebakaran</option>
+                                <option value="alerts/buzzer.mp3">Buzzer </option>
+                                <option value="alerts/Beep.mp3">Beep Alarm</option>
+                                <option value="alerts/Good Morning Bell.mp3">Good Morning Bell </option>
+                                <option value="alerts/Morning Flower.mp3">Morning Flower </option>
+                            </select>
+                        </div>
+                        <div style="display: flex; align-items: center;" class="finish">
+                            <p style="padding-right: 10px;">Play sound when timer finishes
+                            </p>
+                            <input type="checkbox" id="switch" />
+                            <label for="switch">Toggle</label>
+                        </div>
+                        <div style="display: flex; align-items: center;" class="auto">
+                            <p style="padding-right: 10px;">Auto Start Breaks
+                            </p>
+                            <input type="checkbox" id="switch1" />
+                            <label for="switch1">Toggle</label>
+                        </div>
+                    </div>
+
+                </div>
+                <div
+                    style=" padding: 0 10px 20px 10px; width: 100%; margin-top: 90px; display: flex; justify-content: end; ">
+
+                    <div
+                        style=" margin: 0 30px 0 0; display: flex; align-items: center; justify-content: space-between; width: 150px;">
+                        <a
+                            style="border: solid; padding: 5px 15px; border-radius: 8px; margin-right: 10px;  color: white;   white-space: nowrap;">Reset
+                            All</a>
+                        <a id="save"
+                            style="border: solid; padding: 5px 15px; border-radius: 8px;  color: white; ">Save</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="taskQueto" class=" taskQuetoScreen">
+            <div id="taskQuetoMenu" style="display: flex; width: 100%; 
+                justify-content: space-evenly; font-size: 20px; padding: 20px 0;">
+                <button onclick="getMenuScreenTaskQueto(0)" class="timeType">
+                    <p>Task List</p>
+                    <span style="width: 100%;"></span>
+                </button>
+                <button onclick="getMenuScreenTaskQueto(1)" class="timeType">
+                    <p>Motivation Queto</p>
+                    <span></span>
+                </button>
+                <button onclick="getMenuScreenTaskQueto(2)" class="timeType">
+                    <p><i style="padding-right: 5px;" class='bx bxl-spotify'></i>Spotify</p>
+                    <span></span>
+                </button>
+            </div>
+            <div id="tasks" style="display: flex; width: 100%; ; flex-direction: column; align-items: center;">
+                <form id="taskForm">
+                    <div class="input-group">
+                        <input type="text" id="taskInput"
+                            style=" border-top-right-radius: 0; border-bottom-right-radius: 0;"
+                            placeholder="Write the task" aria-label="" aria-describedby="basic-addon1">
+                        <div class="input-group-append">
+                            <input type="submit" value="Add Task" style="  border-left:
+                                  none;border-top-left-radius:0;border-bottom-left-radius: 0;"></input>
+                        </div>
+                    </div>
+
+                </form>
+                <div style=" margin-top: 30px; width: 80%; height: 30px; ">
+                    <ul id="taskList" style="  height:28vh; overflow: auto; ">
+                        <li id="taskItem"
+                            style="display: none; justify-content: space-between; border-bottom: solid; padding: 5px 10px;">
+                            <p style="margin: 0;">Start begin!!!</p>
+                            <div><a id="check" class='bx bxs-check-circle'></a> <a id="delete"
+                                    class='bx bxs-trash-alt'></a>
+                            </div>
+                        </li>
+
+
+
+
+
+                    </ul>
+                </div>
+
+            </div>
+            <div id="motivationQueto"
+                style="height: 30vh; flex-direction: column; display: none; align-items: center; justify-content: start;">
+                <form id="quetoInputForm" style="margin-bottom: 50px;">
+                    <div class="input-group">
+                        <input type="text" id="quetoInput"
+                            style=" border-top-right-radius: 0; border-bottom-right-radius: 0;"
+                            placeholder="Write the queto" aria-label="" aria-describedby="basic-addon1">
+                        <div class="input-group-append">
+                            <input type="submit" value="Change Queto" style="  border-left:
+                                  none;border-top-left-radius:0;border-bottom-left-radius: 0;"></input>
+                        </div>
+                    </div>
+
+                </form>
+                <h1 id="queto" class="ml3" style="width: 100%; text-align: center; font-size: 48px;"> Finish What
+                    You Start</h1>
+
+
+            </div>
+            <div id="spotify" style="  width: 100%;   display: none; flex-direction: column; align-items: center;">
+                <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/playlist/5NzHPp3paFbMZuKxf1uqkR?utm_source=generator&theme=0"
+                    width="100%" height="352" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
+
+            </div>
+        </div>
+    </div>
+    <div id="cf">
+
+        <img class=" zero" src="images/wallpaperflare.com_wallpaper.jpg" />
+        <img class="one" src="images/wallpaperflare.com_wallpaper (1).jpg" />
+        <img class="two" src="images/wallpaperflare.com_wallpaper (2).jpg" />
+        <img class="there" src="images/wallpaperflare.com_wallpaper (3).jpg" />
+
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"
+        integrity="sha512-Pa4Jto+LuCGBHy2/POQEbTh0reuoiEXQWXGn8S7aRlhcwpVkO8+4uoZVSOqUjdCsE+77oygfu2Tl+7qGHGIWsw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js">
+    </script>
+    <script src="apps/timer.js"></script>
+</body>
+
+</html>
