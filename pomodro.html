@@ -56,7 +56,7 @@
             </div>
             <div id="timer" style="display: flex; flex-direction: column; align-items: center;">
                 <div style="text-align: center;">
-                    <h1 id="timeScreen" style=" font-size: 120px; font-weight: bolder; padding: 30px 0 0 0;">30:00
+                    <h1 class="timerScreen" id="timeScreen">30:00
                     </h1>
 
                     <h4 style="display: none;">Just Focus!</h4>
@@ -73,12 +73,12 @@
 
                 </div>
             </div>
-            <div style="width: 95%; display: none;" id="settings">
+            <div style="width: 95%; display: none;" class="Settings" id="settings">
                 <div style="display: flex; width: 100%; ; ">
 
                     <div style="flex: 3; padding: 10px;">
                         <h3>Timer</h3>
-                        <div style=" border-radius: 4px; border: solid;padding: 5px 0 5px 10px; ">
+                        <div class="timeSettings" style=" border-radius: 4px; border: solid;padding: 5px 0 5px 10px; ">
                             <span>
                                 Pomodoro Minutes:
                             </span>
@@ -86,7 +86,8 @@
                                 style="width: 50px; background-color: transparent; border: none; color: white;">
 
                         </div>
-                        <div style=" margin-top: 10px; border-radius: 4px; border: solid;padding: 5px 0 5px 10px; ">
+                        <div class="timeSettings"
+                            style=" margin-top: 10px; border-radius: 4px; border: solid;padding: 5px 0 5px 10px; ">
                             <span>
                                 Short Break Minutes:
                             </span>
@@ -94,7 +95,8 @@
                                 style="width: 50px; background-color: transparent; border: none; color: white;">
 
                         </div>
-                        <div style=" margin-top: 10px;border-radius: 4px; border: solid;padding: 5px 0 5px 10px; ">
+                        <div class="timeSettings"
+                            style=" margin-top: 10px;border-radius: 4px; border: solid;padding: 5px 0 5px 10px; ">
                             <span>
                                 Long Break Minutes:
                             </span>
@@ -173,7 +175,7 @@
                 <form id="taskForm">
                     <div class="input-group">
                         <input type="text" id="taskInput"
-                            style=" border-top-right-radius: 0; border-bottom-right-radius: 0;"
+                            style="max-width: 90%; border-top-right-radius: 0; border-bottom-right-radius: 0;"
                             placeholder="Write the task" aria-label="" aria-describedby="basic-addon1">
                         <div class="input-group-append">
                             <input type="submit" value="Add Task" style="  border-left:
@@ -205,7 +207,7 @@
                 <form id="quetoInputForm" style="margin-bottom: 50px;">
                     <div class="input-group">
                         <input type="text" id="quetoInput"
-                            style=" border-top-right-radius: 0; border-bottom-right-radius: 0;"
+                            style="max-width: 80%; border-top-right-radius: 0; border-bottom-right-radius: 0;"
                             placeholder="Write the queto" aria-label="" aria-describedby="basic-addon1">
                         <div class="input-group-append">
                             <input type="submit" value="Change Queto" style="  border-left:
@@ -252,7 +254,7 @@
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js">
     </script>
-    <script src="apps/timer.js"></script>
+    <script src="timer.js"></script>
 </body>
 
 </html>

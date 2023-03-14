@@ -27,6 +27,7 @@ body {
 }
 
 .hover:hover p {
+    display: block;
     opacity: 100%;
 }
 
@@ -39,6 +40,7 @@ body {
     width: 80%;
     opacity: 0;
     transition: opacity .4s;
+    display: none;
 
 }
 
@@ -62,6 +64,7 @@ body {
     top: 0;
     width: 100%;
     height: 100vh;
+    object-fit: cover;
     -webkit-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     -o-transition: opacity 1s ease-in-out;
@@ -225,6 +228,12 @@ button:focus {
 
 a {
     cursor: pointer;
+}
+
+.timerScreen {
+    font-size: 120px;
+    font-weight: bolder;
+    padding: 30px 0 0 0;
 }
 
 .volume {
@@ -409,14 +418,62 @@ label:active:after {
     .main {
         top: 10%;
         flex-direction: column;
+        height: 90vh;
+        justify-content: flex-start;
     }
 
     .setScreen {
-        margin-bottom: 5%;
         width: 90%;
+        height: 45vh;
+        margin-bottom: 5%;
     }
 
     .taskQuetoScreen {
         width: 90%;
+        height: 45vh;
+
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .hover h1 {
+        font-size: 36px;
+
+    }
+
+
+
+    .input-group {
+        width: 160px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .timerScreen {
+        font-size: 84px;
+    }
+
+    .Settings span {
+        font-size: 12px;
+    }
+
+    .Settings {
+        margin-top: -50px;
+    }
+
+    .Settings input {
+        font-size: 12px;
+    }
+
+    .Settings h3 {
+        font-size: 20px;
+    }
+
+    .timeSettings {
+        background-color: aqua;
+        width: 100px;
     }
 }
