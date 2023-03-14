@@ -473,7 +473,6 @@ label:active:after {
     }
 
     .timeSettings {
-        background-color: aqua;
         width: 100px;
     }
 }
