@@ -475,4 +475,8 @@ label:active:after {
     .timeSettings {
         width: 100px;
     }
+
+    .settingButton a {
+        margin-top: -250px;
+    }
 }

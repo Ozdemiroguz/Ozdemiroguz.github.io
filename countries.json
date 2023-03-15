@@ -1,638 +1,638 @@
 [
   {
-    "country_name": "Albania",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/10_albania.png"
+    "team_name": "Albania",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/10_albania.png"
   },
   {
-    "country_name": "Algeria",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/11_algeria.png"
+    "team_name": "Algeria",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/11_algeria.png"
   },
   {
-    "country_name": "Andorra",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/12_andorra.png"
+    "team_name": "Andorra",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/12_andorra.png"
   },
   {
-    "country_name": "Angola",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/13_angola.png"
+    "team_name": "Angola",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/13_angola.png"
   },
   {
-    "country_name": "Argentina",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/14_argentina.png"
+    "team_name": "Argentina",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/14_argentina.png"
   },
   {
-    "country_name": "Armenia",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/15_armenia.png"
+    "team_name": "Armenia",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/15_armenia.png"
   },
   {
-    "country_name": "Aruba",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/16_aruba.png"
+    "team_name": "Aruba",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/16_aruba.png"
   },
   {
-    "country_name": "Australia",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/17_australia.png"
+    "team_name": "Australia",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/17_australia.png"
   },
   {
-    "country_name": "Austria",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/18_austria.png"
+    "team_name": "Austria",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/18_austria.png"
   },
   {
-    "country_name": "Azerbaijan",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/19_azerbaijan.png"
+    "team_name": "Azerbaijan",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/19_azerbaijan.png"
   },
   {
-    "country_name": "Bahrain",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/20_bahrain.png"
+    "team_name": "Bahrain",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/20_bahrain.png"
   },
   {
-    "country_name": "Bangladesh",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/21_bangladesh.png"
+    "team_name": "Bangladesh",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/21_bangladesh.png"
   },
   {
-    "country_name": "Barbados",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/125_barbados.png"
+    "team_name": "Barbados",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/125_barbados.png"
   },
   {
-    "country_name": "Belarus",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/22_belarus.png"
+    "team_name": "Belarus",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/22_belarus.png"
   },
   {
-    "country_name": "Belgium",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/23_belgium.png"
+    "team_name": "Belgium",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/23_belgium.png"
   },
   {
-    "country_name": "Belize",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/134_belize.png"
+    "team_name": "Belize",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/134_belize.png"
   },
   {
-    "country_name": "Benin",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/145_benin.png"
+    "team_name": "Benin",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/145_benin.png"
   },
   {
-    "country_name": "Bermuda",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/24_bermuda.png"
+    "team_name": "Bermuda",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/24_bermuda.png"
   },
   {
-    "country_name": "Bhutan",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/135_bhutan.png"
+    "team_name": "Bhutan",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/135_bhutan.png"
   },
   {
-    "country_name": "Bolivia",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/25_bolivia.png"
+    "team_name": "Bolivia",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/25_bolivia.png"
   },
   {
-    "country_name": "Bosnia and Herzegovina",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/26_bosnia-and-herzegovina.png"
+    "team_name": "Bosnia and Herzegovina",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/26_bosnia-and-herzegovina.png"
   },
   {
-    "country_name": "Botswana",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/136_botswana.png"
+    "team_name": "Botswana",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/136_botswana.png"
   },
   {
-    "country_name": "Brazil",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/27_brazil.png"
+    "team_name": "Brazil",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/27_brazil.png"
   },
   {
-    "country_name": "Bulgaria",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/28_bulgaria.png"
+    "team_name": "Bulgaria",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/28_bulgaria.png"
   },
   {
-    "country_name": "Burkina Faso",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/150_burkina-faso.png"
+    "team_name": "Burkina Faso",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/150_burkina-faso.png"
   },
   {
-    "country_name": "Burundi",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/143_burundi.png"
+    "team_name": "Burundi",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/143_burundi.png"
   },
   {
-    "country_name": "Cambodia",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/137_cambodia.png"
+    "team_name": "Cambodia",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/137_cambodia.png"
   },
   {
-    "country_name": "Cameroon",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/29_cameroon.png"
+    "team_name": "Cameroon",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/29_cameroon.png"
   },
   {
-    "country_name": "Canada",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/30_canada.png"
+    "team_name": "Canada",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/30_canada.png"
   },
   {
-    "country_name": "Chile",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/31_chile.png"
+    "team_name": "Chile",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/31_chile.png"
   },
   {
-    "country_name": "China",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/32_china.png"
+    "team_name": "China",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/32_china.png"
   },
   {
-    "country_name": "Chinese Taipei",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/33_chinese-taipei.png"
+    "team_name": "Chinese Taipei",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/33_chinese-taipei.png"
   },
   {
-    "country_name": "Colombia",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/34_colombia.png"
+    "team_name": "Colombia",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/34_colombia.png"
   },
   {
-    "country_name": "Congo",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/156_congo.png"
+    "team_name": "Congo",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/156_congo.png"
   },
   {
-    "country_name": "Congo DR",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/127_congo-dr.png"
+    "team_name": "Congo DR",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/127_congo-dr.png"
   },
   {
-    "country_name": "Costa Rica",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/35_costa-rica.png"
+    "team_name": "Costa Rica",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/35_costa-rica.png"
   },
   {
-    "country_name": "Croatia",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/37_croatia.png"
+    "team_name": "Croatia",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/37_croatia.png"
   },
   {
-    "country_name": "Curacao",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/132_curacao.png"
+    "team_name": "Curacao",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/132_curacao.png"
   },
   {
-    "country_name": "Cyprus",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/38_cyprus.png"
+    "team_name": "Cyprus",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/38_cyprus.png"
   },
   {
-    "country_name": "Czech Republic",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/39_czech-republic.png"
+    "team_name": "Czech Republic",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/39_czech-republic.png"
   },
   {
-    "country_name": "Denmark",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/40_denmark.png"
+    "team_name": "Denmark",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/40_denmark.png"
   },
   {
-    "country_name": "Dominican Republic",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/124_dominican-republic.png"
+    "team_name": "Dominican Republic",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/124_dominican-republic.png"
   },
   {
-    "country_name": "Ecuador",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/41_ecuador.png"
+    "team_name": "Ecuador",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/41_ecuador.png"
   },
   {
-    "country_name": "Egypt",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/42_egypt.png"
+    "team_name": "Egypt",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/42_egypt.png"
   },
   {
-    "country_name": "El Salvador",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/43_el-salvador.png"
+    "team_name": "El Salvador",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/43_el-salvador.png"
   },
   {
-    "country_name": "England",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/44_england.png"
+    "team_name": "England",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/44_england.png"
   },
   {
-    "country_name": "Estonia",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/45_estonia.png"
+    "team_name": "Estonia",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/45_estonia.png"
   },
   {
-    "country_name": "Eswatini",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/167_eswatini.png"
+    "team_name": "Eswatini",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/167_eswatini.png"
   },
   {
-    "country_name": "Ethiopia",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/152_ethiopia.png"
+    "team_name": "Ethiopia",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/152_ethiopia.png"
   },
   {
-    "country_name": "Faroe Islands",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/46_faroe-islands.png"
+    "team_name": "Faroe Islands",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/46_faroe-islands.png"
   },
   {
-    "country_name": "Fiji",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/47_fiji.png"
+    "team_name": "Fiji",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/47_fiji.png"
   },
   {
-    "country_name": "Finland",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/48_finland.png"
+    "team_name": "Finland",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/48_finland.png"
   },
   {
-    "country_name": "France",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/3_france.png"
+    "team_name": "France",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/3_france.png"
   },
   {
-    "country_name": "Gambia",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/148_gambia.png"
+    "team_name": "Gambia",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/148_gambia.png"
   },
   {
-    "country_name": "Georgia",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/49_georgia.png"
+    "team_name": "Georgia",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/49_georgia.png"
   },
   {
-    "country_name": "Germany",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/4_germany.png"
+    "team_name": "Germany",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/4_germany.png"
   },
   {
-    "country_name": "Ghana",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/50_ghana.png"
+    "team_name": "Ghana",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/50_ghana.png"
   },
   {
-    "country_name": "Gibraltar",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/122_gibraltar.png"
+    "team_name": "Gibraltar",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/122_gibraltar.png"
   },
   {
-    "country_name": "Greece",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/51_greece.png"
+    "team_name": "Greece",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/51_greece.png"
   },
   {
-    "country_name": "Guadeloupe",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/123_guadeloupe.png"
+    "team_name": "Guadeloupe",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/123_guadeloupe.png"
   },
   {
-    "country_name": "Guatemala",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/52_guatemala.png"
+    "team_name": "Guatemala",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/52_guatemala.png"
   },
   {
-    "country_name": "Guinea",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/149_guinea.png"
+    "team_name": "Guinea",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/149_guinea.png"
   },
   {
-    "country_name": "Haiti",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/53_haiti.png"
+    "team_name": "Haiti",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/53_haiti.png"
   },
   {
-    "country_name": "Honduras",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/54_honduras.png"
+    "team_name": "Honduras",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/54_honduras.png"
   },
   {
-    "country_name": "Hong Kong",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/55_hong-kong.png"
+    "team_name": "Hong Kong",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/55_hong-kong.png"
   },
   {
-    "country_name": "Hungary",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/56_hungary.png"
+    "team_name": "Hungary",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/56_hungary.png"
   },
   {
-    "country_name": "Iceland",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/57_iceland.png"
+    "team_name": "Iceland",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/57_iceland.png"
   },
   {
-    "country_name": "India",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/58_india.png"
+    "team_name": "India",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/58_india.png"
   },
   {
-    "country_name": "Indonesia",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/59_indonesia.png"
+    "team_name": "Indonesia",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/59_indonesia.png"
   },
   {
-    "country_name": "Iran",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/60_iran.png"
+    "team_name": "Iran",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/60_iran.png"
   },
   {
-    "country_name": "Iraq",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/138_iraq.png"
+    "team_name": "Iraq",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/138_iraq.png"
   },
   {
-    "country_name": "Ireland",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/61_ireland.png"
+    "team_name": "Ireland",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/61_ireland.png"
   },
   {
-    "country_name": "Israel",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/62_israel.png"
+    "team_name": "Israel",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/62_israel.png"
   },
   {
-    "country_name": "Italy",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/5_italy.png"
+    "team_name": "Italy",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/5_italy.png"
   },
   {
-    "country_name": "Ivory Coast",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/36_ivory-coast.png"
+    "team_name": "Ivory Coast",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/36_ivory-coast.png"
   },
   {
-    "country_name": "Jamaica",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/63_jamaica.png"
+    "team_name": "Jamaica",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/63_jamaica.png"
   },
   {
-    "country_name": "Japan",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/64_japan.png"
+    "team_name": "Japan",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/64_japan.png"
   },
   {
-    "country_name": "Jordan",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/65_jordan.png"
+    "team_name": "Jordan",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/65_jordan.png"
   },
   {
-    "country_name": "Kazakhstan",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/66_kazakhstan.png"
+    "team_name": "Kazakhstan",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/66_kazakhstan.png"
   },
   {
-    "country_name": "Kenya",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/67_kenya.png"
+    "team_name": "Kenya",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/67_kenya.png"
   },
   {
-    "country_name": "Korea Republic",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/68_korea-republic.png"
+    "team_name": "Korea Republic",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/68_korea-republic.png"
   },
   {
-    "country_name": "Kosovo",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/142_kosovo.png"
+    "team_name": "Kosovo",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/142_kosovo.png"
   },
   {
-    "country_name": "Kuwait",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/69_kuwait.png"
+    "team_name": "Kuwait",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/69_kuwait.png"
   },
   {
-    "country_name": "Kyrgyzstan",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/161_kyrgyzstan.png"
+    "team_name": "Kyrgyzstan",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/161_kyrgyzstan.png"
   },
   {
-    "country_name": "Laos",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/131_laos.png"
+    "team_name": "Laos",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/131_laos.png"
   },
   {
-    "country_name": "Latvia",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/70_latvia.png"
+    "team_name": "Latvia",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/70_latvia.png"
   },
   {
-    "country_name": "Lebanon",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/71_lebanon.png"
+    "team_name": "Lebanon",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/71_lebanon.png"
   },
   {
-    "country_name": "Liberia",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/144_liberia.png"
+    "team_name": "Liberia",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/144_liberia.png"
   },
   {
-    "country_name": "Libya",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/72_libya.png"
+    "team_name": "Libya",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/72_libya.png"
   },
   {
-    "country_name": "Liechtenstein",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/141_liechtenstein.png"
+    "team_name": "Liechtenstein",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/141_liechtenstein.png"
   },
   {
-    "country_name": "Lithuania",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/73_lithuania.png"
+    "team_name": "Lithuania",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/73_lithuania.png"
   },
   {
-    "country_name": "Luxembourg",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/74_luxembourg.png"
+    "team_name": "Luxembourg",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/74_luxembourg.png"
   },
   {
-    "country_name": "Malawi",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/157_malawi.png"
+    "team_name": "Malawi",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/157_malawi.png"
   },
   {
-    "country_name": "Malaysia",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/76_malaysia.png"
+    "team_name": "Malaysia",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/76_malaysia.png"
   },
   {
-    "country_name": "Maldives",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/164_maldives.png"
+    "team_name": "Maldives",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/164_maldives.png"
   },
   {
-    "country_name": "Mali",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/154_mali.png"
+    "team_name": "Mali",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/154_mali.png"
   },
   {
-    "country_name": "Malta",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/77_malta.png"
+    "team_name": "Malta",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/77_malta.png"
   },
   {
-    "country_name": "Mauritania",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/155_mauritania.png"
+    "team_name": "Mauritania",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/155_mauritania.png"
   },
   {
-    "country_name": "Mauritius",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/153_mauritius.png"
+    "team_name": "Mauritius",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/153_mauritius.png"
   },
   {
-    "country_name": "Mexico",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/78_mexico.png"
+    "team_name": "Mexico",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/78_mexico.png"
   },
   {
-    "country_name": "Moldova",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/79_moldova.png"
+    "team_name": "Moldova",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/79_moldova.png"
   },
   {
-    "country_name": "Mongolia",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/129_mongolia.png"
+    "team_name": "Mongolia",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/129_mongolia.png"
   },
   {
-    "country_name": "Montenegro",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/81_montenegro.png"
+    "team_name": "Montenegro",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/81_montenegro.png"
   },
   {
-    "country_name": "Morocco",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/80_morocco.png"
+    "team_name": "Morocco",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/80_morocco.png"
   },
   {
-    "country_name": "Myanmar",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/162_myanmar.png"
+    "team_name": "Myanmar",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/162_myanmar.png"
   },
   {
-    "country_name": "Nepal",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/139_nepal.png"
+    "team_name": "Nepal",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/139_nepal.png"
   },
   {
-    "country_name": "Netherlands",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/82_netherlands.png"
+    "team_name": "Netherlands",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/82_netherlands.png"
   },
   {
-    "country_name": "New Zealand",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/83_new-zealand.png"
+    "team_name": "New Zealand",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/83_new-zealand.png"
   },
   {
-    "country_name": "Nicaragua",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/84_nicaragua.png"
+    "team_name": "Nicaragua",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/84_nicaragua.png"
   },
   {
-    "country_name": "Nigeria",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/85_nigeria.png"
+    "team_name": "Nigeria",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/85_nigeria.png"
   },
   {
-    "country_name": "North Macedonia",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/75_north-macedonia.png"
+    "team_name": "North Macedonia",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/75_north-macedonia.png"
   },
   {
-    "country_name": "Northern Ireland",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/86_northern-ireland.png"
+    "team_name": "Northern Ireland",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/86_northern-ireland.png"
   },
   {
-    "country_name": "Norway",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/87_norway.png"
+    "team_name": "Norway",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/87_norway.png"
   },
   {
-    "country_name": "Oman",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/88_oman.png"
+    "team_name": "Oman",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/88_oman.png"
   },
   {
-    "country_name": "Palestine",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/163_palestine.png"
+    "team_name": "Palestine",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/163_palestine.png"
   },
   {
-    "country_name": "Panama",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/126_panama.png"
+    "team_name": "Panama",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/126_panama.png"
   },
   {
-    "country_name": "Paraguay",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/89_paraguay.png"
+    "team_name": "Paraguay",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/89_paraguay.png"
   },
   {
-    "country_name": "Peru",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/90_peru.png"
+    "team_name": "Peru",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/90_peru.png"
   },
   {
-    "country_name": "Philippines",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/165_philippines.png"
+    "team_name": "Philippines",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/165_philippines.png"
   },
   {
-    "country_name": "Poland",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/91_poland.png"
+    "team_name": "Poland",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/91_poland.png"
   },
   {
-    "country_name": "Portugal",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/92_portugal.png"
+    "team_name": "Portugal",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/92_portugal.png"
   },
   {
-    "country_name": "Qatar",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/93_qatar.png"
+    "team_name": "Qatar",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/93_qatar.png"
   },
   {
-    "country_name": "Romania",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/94_romania.png"
+    "team_name": "Romania",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/94_romania.png"
   },
   {
-    "country_name": "Russia",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/95_russia.png"
+    "team_name": "Russia",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/95_russia.png"
   },
   {
-    "country_name": "Rwanda",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/146_rwanda.png"
+    "team_name": "Rwanda",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/146_rwanda.png"
   },
   {
-    "country_name": "San Marino",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/96_san-marino.png"
+    "team_name": "San Marino",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/96_san-marino.png"
   },
   {
-    "country_name": "Saudi Arabia",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/97_saudi-arabia.png"
+    "team_name": "Saudi Arabia",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/97_saudi-arabia.png"
   },
   {
-    "country_name": "Scotland",
-    "country_logo": "images/Flag_of_Scotland.svg.png"
+    "team_name": "Scotland",
+    "team_logo": "images/Flag_of_Scotland.svg.png"
   },
   {
-    "country_name": "Senegal",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/140_senegal.png"
+    "team_name": "Senegal",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/140_senegal.png"
   },
   {
-    "country_name": "Serbia",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/99_serbia.png"
+    "team_name": "Serbia",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/99_serbia.png"
   },
   {
-    "country_name": "Singapore",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/100_singapore.png"
+    "team_name": "Singapore",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/100_singapore.png"
   },
   {
-    "country_name": "Slovakia",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/101_slovakia.png"
+    "team_name": "Slovakia",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/101_slovakia.png"
   },
   {
-    "country_name": "Slovenia",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/102_slovenia.png"
+    "team_name": "Slovenia",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/102_slovenia.png"
   },
   {
-    "country_name": "Somalia",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/158_somalia.png"
+    "team_name": "Somalia",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/158_somalia.png"
   },
   {
-    "country_name": "South Africa",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/103_south-africa.png"
+    "team_name": "South Africa",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/103_south-africa.png"
   },
   {
-    "country_name": "Spain",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/6_spain.png"
+    "team_name": "Spain",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/6_spain.png"
   },
   {
-    "country_name": "Sudan",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/104_sudan.png"
+    "team_name": "Sudan",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/104_sudan.png"
   },
   {
-    "country_name": "Surinam",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/105_surinam.png"
+    "team_name": "Surinam",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/105_surinam.png"
   },
   {
-    "country_name": "Sweden",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/7_sweden.png"
+    "team_name": "Sweden",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/7_sweden.png"
   },
   {
-    "country_name": "Switzerland",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/106_switzerland.png"
+    "team_name": "Switzerland",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/106_switzerland.png"
   },
   {
-    "country_name": "Syria",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/107_syria.png"
+    "team_name": "Syria",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/107_syria.png"
   },
   {
-    "country_name": "Tajikistan",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/159_tajikistan.png"
+    "team_name": "Tajikistan",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/159_tajikistan.png"
   },
   {
-    "country_name": "Tanzania",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/147_tanzania.png"
+    "team_name": "Tanzania",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/147_tanzania.png"
   },
   {
-    "country_name": "Thailand",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/108_thailand.png"
+    "team_name": "Thailand",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/108_thailand.png"
   },
   {
-    "country_name": "Trinidad and Tobago",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/109_trinidad-and-tobago.png"
+    "team_name": "Trinidad and Tobago",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/109_trinidad-and-tobago.png"
   },
   {
-    "country_name": "Tunisia",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/110_tunisia.png"
+    "team_name": "Tunisia",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/110_tunisia.png"
   },
   {
-    "country_name": "Turkey",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/111_turkey.png"
+    "team_name": "Turkey",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/111_turkey.png"
   },
   {
-    "country_name": "Turkmenistan",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/130_turkmenistan.png"
+    "team_name": "Turkmenistan",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/130_turkmenistan.png"
   },
   {
-    "country_name": "Uganda",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/151_uganda.png"
+    "team_name": "Uganda",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/151_uganda.png"
   },
   {
-    "country_name": "Ukraine",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/112_ukraine.png"
+    "team_name": "Ukraine",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/112_ukraine.png"
   },
   {
-    "country_name": "United Arab Emirates",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/113_united-arab-emirates.png"
+    "team_name": "United Arab Emirates",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/113_united-arab-emirates.png"
   },
   {
-    "country_name": "Uruguay",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/115_uruguay.png"
+    "team_name": "Uruguay",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/115_uruguay.png"
   },
   {
-    "country_name": "USA",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/114_usa.png"
+    "team_name": "USA",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/114_usa.png"
   },
   {
-    "country_name": "Uzbekistan",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/116_uzbekistan.png"
+    "team_name": "Uzbekistan",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/116_uzbekistan.png"
   },
   {
-    "country_name": "Venezuela",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/117_venezuela.png"
+    "team_name": "Venezuela",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/117_venezuela.png"
   },
   {
-    "country_name": "Vietnam",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/118_vietnam.png"
+    "team_name": "Vietnam",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/118_vietnam.png"
   },
   {
-    "country_name": "Wales",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/119_wales.png"
+    "team_name": "Wales",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/119_wales.png"
   },
   {
-    "country_name": "Zambia",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/120_zambia.png"
+    "team_name": "Zambia",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/120_zambia.png"
   },
   {
-    "country_name": "Zimbabwe",
-    "country_logo": "https://apiv2.allsportsapi.com/logo/logo_country/121_zimbabwe.png"
+    "team_name": "Zimbabwe",
+    "team_logo": "https://apiv2.allsportsapi.com/logo/logo_country/121_zimbabwe.png"
   }
 ]

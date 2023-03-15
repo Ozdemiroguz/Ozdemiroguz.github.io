@@ -70,6 +70,7 @@ function startCountdown() {
     time--;
 }
 function playQuiz(e) {
+    console.log(e);
     document.querySelector("div").innerHTML = "<h1>Flag Quiz</h1>"
     document.querySelector("div").style.backgroundColor = "#f4b53f6b"
     cards.style.display = "none";
@@ -87,7 +88,8 @@ function start(e) {
             startingScreen.style.display = "flex";
             time = 3;
             myInterval = setInterval(startCountdown, 1000)
-            e.target.id == "Flag" ? getJSONFile("countries.json") : getJSONFile("nba.json");
+
+            player.quiz == "Flag" ? getJSONFile("countries.json") : getJSONFile("nba.json");
 
         }
     }
@@ -98,7 +100,7 @@ function start(e) {
         startingScreen.style.display = "flex";
         time = 2
         myInterval = setInterval(startCountdown, 1000)
-        e.target.id == "Flag" ? getJSONFile("countries.json") : getJSONFile("nba.json");
+        player.quiz == "Flag" ? getJSONFile("countries.json") : getJSONFile("nba.json");
     }
     e.preventDefault();
 }

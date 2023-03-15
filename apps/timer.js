@@ -258,7 +258,7 @@ function setSettings() {
     if (JSON.parse(localStorage.getItem('settingsData')) == null)
         getSetting()
     else
-        settingsData = JSON.parse(localStorage.getItem('settingsData')) == null
+        settingsData = JSON.parse(localStorage.getItem('settingsData'))
     document.getElementById("pomodro").value = settingsData.pomodro;
     document.getElementById("short").value = settingsData.short;
     document.getElementById("long").value = settingsData.long;
