@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,900;1,400&display=swap');
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*,
+p {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 0;
+    box-sizing: border-box;
+    outline: 0;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+}
+
+body {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(images/29018840_7529031.jpg);
+    background-size: 100% 100vh;
+    /* Center the image */
+    /* Do not repeat the image */
+    /* Resize the background image to cover the entire container */
+}
+
+.blakjack {
+    margin-bottom: -25px;
+    color: white;
+    font-size: 56px;
+    text-shadow: 0 0 10px blue;
+}
+
+.blakjack img {
+    margin-right: -5px;
+    width: 90px;
+    background-color: transparent;
+    filter: drop-shadow(0 0 10px blue);
+}
+
+.table {
+
+    width: 85%;
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.table img {
+    border-radius: 15px;
+    position: absolute;
+    width: 85%;
+    height: 90vh;
+    z-index: -1;
+    overflow: hidden;
+
+}
+
+.startscreen {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: blur(5px);
+    display: none;
+
+}
+
+.startscreen h1 {
+    text-align: center;
+    color: white;
+    font-size: 120px;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+    filter: drop-shadow(10px 10px 5px blue);
+
+}
+
+.startscreen img {
+    position: static;
+    width: 150px;
+    height: 150px;
+    margin: 0px -20px;
+
+}
+
+.startbuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.startbuttons button {
+    font-size: 24px;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    align-items: center;
+    background-color: blue;
+    margin: 20px 30px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s;
+}
+
+
+
+button:hover,
+i:hover {
+    opacity: 0.8;
+
+}
+
+.startbuttons button:active,
+#betScreen button:active,
+#moneyScreen button:active {
+    transform: translate(5px, 5px);
+    box-shadow: none;
+}
+
+.settings {
+    color: white;
+    display: block;
+    margin-top: -13vh;
+    width: 400px;
+    height: 150px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+.gamescreen {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+}
+
+.deck {
+    top: 100px;
+    left: 100px;
+    position: relative;
+
+}
+
+.front img {
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+
+    position: absolute;
+    border: none;
+    width: 100px;
+    height: 150px;
+    float: left;
+    perspective: 500px;
+    transition: transform 1s;
+
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 1s;
+    transform-style: preserve-3d;
+
+}
+
+.card:hover .content {
+    transform: rotateY(180deg);
+    transition: transform 1s;
+}
+
+.front,
+.back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    backface-visibility: hidden;
+}
+
+.back {
+    border: solid;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    transform: rotateY(180deg);
+}
+
+.back div {
+    width: 80%;
+    font-size: 24px;
+}
+
+.back div:nth-child(1) {
+    text-align: start;
+}
+
+.back div:nth-child(2) {
+    font-size: 48px;
+    margin: -15px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.back div:nth-child(3) {
+    text-align: start;
+    transform: rotate(180deg);
+}
+
+#betScreen {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    bottom: 170px;
+    color: white;
+}
+
+#betScreen button {
+    transition: all 0.3s;
+
+    margin: 0 10px;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: blue;
+    font-size: 16px;
+
+}
+
+
+
+#moneyScreen {
+    position: absolute;
+    bottom: 80px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+#moneyScreen button {
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: all 0.3s;
+
+}
+
+.coins {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 75px;
+    width: 100%;
+    bottom: 0px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+
+.coins div {
+    margin: 0 10px;
+    transition: transform .5s;
+    display: block;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+}
+
+.coins div img {
+    filter: drop-shadow(0 0 2px rgb(255, 255, 255));
+    width: 50px;
+    height: 50px;
+    transition: transform 0.5s;
+
+}
+
+#playerScore {
+
+    position: absolute;
+    top: 49vh;
+    color: white;
+    font-size: 19px;
+    left: 49%;
+    display: none;
+}
+
+#dealerScore {
+    position: absolute;
+    top: 22vh;
+    color: white;
+    font-size: 19px;
+    left: 49%;
+    display: none;
+}
+
+#remainCard {
+    color: white;
+    position: absolute;
+    top: 150px;
+    left: 40px;
+}
+
+#endScreen {
+    color: white;
+    border-bottom: solid;
+    border-top: solid;
+    border-color: blue;
+
+    top: 35vh;
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(2px);
+    z-index: 3;
+    text-align: center;
+    left: 100%;
+    transition: transform 2s;
+}
+
+#endScreen h1 {
+    font-size: 72px;
+    color: blue;
+}
+
+#endScreen p {
+    font-size: 28px;
+}
+
+@media (max-width: 1200px) {
+    .blakjack {
+        font-size: 52px;
+        margin-bottom: -22px;
+    }
+
+    .blakjack img {
+        width: 72px;
+    }
+
+    .deck {
+        top: 280px;
+        left: 130px;
+    }
+
+    .card {
+        width: 90px;
+        height: 135px;
+    }
+
+    .back div {
+        width: 80%;
+        font-size: 18px;
+    }
+
+    .back div:nth-child(2) {
+        font-size: 40px;
+    }
+
+    #dealerScore {
+        top: 17vh;
+        font-size: 16px;
+        left: 48%;
+
+    }
+
+    #playerScore {
+        top: 52vh;
+        font-size: 16px;
+        left: 48%;
+
+    }
+}
+
+@media (max-width: 819px) {
+    .blakjack {
+        font-size: 52px;
+        margin-bottom: -22px;
+    }
+
+    .blakjack img {
+        width: 72px;
+    }
+
+    .deck {
+        top: 250px;
+        left: 130px;
+    }
+
+    .card {
+        width: 80px;
+        height: 120px;
+    }
+
+    .back div {
+        width: 80%;
+        font-size: 18px;
+    }
+
+    .back div:nth-child(2) {
+        font-size: 40px;
+    }
+
+    #dealerScore {
+        top: 17vh;
+        font-size: 16px;
+        left: 48%;
+
+    }
+
+    #playerScore {
+        top: 52vh;
+        font-size: 16px;
+        left: 48%;
+
+    }
+}
+
+@media (max-width: 767px) {
+    .blakjack {
+        font-size: 48px;
+        margin-bottom: -10px;
+    }
+
+    .blakjack img {
+        width: 60px;
+    }
+
+    .startscreen h1 {
+        font-size: 56px;
+    }
+
+    .startscreen h1 img {
+        margin: 0 -10px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .startscreen button {
+        font-size: 16px;
+        margin: 10px;
+
+    }
+
+    .settings {
+        width: 300px;
+        height: 200px;
+    }
+
+    .deck {
+        top: 200px;
+        left: 20px;
+    }
+
+    .card {
+        width: 60px;
+        height: 100px;
+    }
+
+
+
+    .coins {
+        height: 50px;
+    }
+
+    .coins div {
+        width: 35 px;
+        height: 35px;
+    }
+
+    .coins div img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .back div {
+        width: 80%;
+        font-size: 16px;
+    }
+
+    .back div:nth-child(2) {
+        font-size: 36px;
+    }
+
+    #moneyScreen button {
+        font-size: 16px;
+    }
+
+    #moneyScreen {
+        bottom: 75px;
+    }
+
+    #betScreen {
+        bottom: 158px;
+    }
+
+    #playerScore {
+
+        top: 52vh;
+        font-size: 16px;
+        left: 48%;
+    }
+
+    #dealerScore {
+        top: 17vh;
+        font-size: 16px;
+        left: 48%;
+
+    }
+
+    #remainCard {
+        top: 100px;
+        left: 18px;
+    }
+}
