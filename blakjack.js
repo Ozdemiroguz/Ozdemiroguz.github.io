@@ -104,9 +104,14 @@ function coinsCheck() {
         coins.children[2].removeEventListener("click", bet);
 
     }
-    if (player[0].money < 1000) {
+    if (player[0].money < 500) {
         coins.children[3].children[0].style.display = "none"
         coins.children[3].removeEventListener("click", bet);
+
+    }
+    if (player[0].money < 1000) {
+        coins.children[4].children[0].style.display = "none"
+        coins.children[4].removeEventListener("click", bet);
 
     }
 }
