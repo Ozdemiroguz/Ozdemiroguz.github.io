@@ -15,14 +15,14 @@ function shuffle(deck) {
     }
 }
 let image =
-    [{ img: "url(images/sena.jpg)", value: "a" }, { img: "url(images/sena.jpg)", value: "a" },
-    { img: "url(images/umut.jpg)", value: "b" }, { img: "url(images/umut.jpg)", value: "b" },
-    { img: "url(images/irem.jpg)", value: "c" }, { img: "url(images/irem.jpg)", value: "c" },
-    { img: "url(images/berk.jpg)", value: "d" }, { img: "url(images/berk.jpg)", value: "d" },
-    { img: "url(images/eray.jpg)", value: "e" }, { img: "url(images/eray.jpg)", value: "e" },
-    { img: "url(images/yunus.jpg)", value: "f" }, { img: "url(images/yunus.jpg)", value: "f" },
-    { img: "url(images/oguzhan.jpg)", value: "g" }, { img: "url(images/oguzhan.jpg)", value: "g" },
-    { img: "url(images/alper.jpg)", value: "h" }, { img: "url(images/alper.jpg)", value: "h" },]
+    [{ img: "url(/images/sena.jpg)", value: "a" }, { img: "url(/images/sena.jpg)", value: "a" },
+    { img: "url(/images/umut.jpg)", value: "b" }, { img: "url(/images/umut.jpg)", value: "b" },
+    { img: "url(/images/irem.jpg)", value: "c" }, { img: "url(/images/irem.jpg)", value: "c" },
+    { img: "url(/images/berk.jpg)", value: "d" }, { img: "url(/images/berk.jpg)", value: "d" },
+    { img: "url(/images/eray.jpg)", value: "e" }, { img: "url(/images/eray.jpg)", value: "e" },
+    { img: "url(/images/yunus.jpg)", value: "f" }, { img: "url(/images/yunus.jpg)", value: "f" },
+    { img: "url(/images/oguzhan.jpg)", value: "g" }, { img: "url(/images/oguzhan.jpg)", value: "g" },
+    { img: "url(/images/alper.jpg)", value: "h" }, { img: "url(/images/alper.jpg)", value: "h" },]
 let ctr = { cardS: [], counter: 0, indexS: [], }
 shuffle(image)
 

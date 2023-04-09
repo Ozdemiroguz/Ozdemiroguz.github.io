@@ -26,7 +26,7 @@ body {
     height: 100vh;
     overflow: hidden;
     display: flex;
-    background-image: url(images/29018840_7529031.jpg);
+    background-image: url(/images/29018840_7529031.jpg);
     flex-direction: column;
     align-items: center;
     background-size: 100% 100vh;

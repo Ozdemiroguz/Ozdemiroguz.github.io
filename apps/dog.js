@@ -81,8 +81,8 @@ function setPicture(e) {
 }
 function setRandomPic() {
     let random = Math.floor(Math.random() * pictures.length);
-    document.getElementById("screen").src = "images/" + pictures[random];
-    document.getElementById("screen1").src = "images/" + pictures[random];
+    document.getElementById("screen").src = "/images/" + pictures[random];
+    document.getElementById("screen1").src = "/images/" + pictures[random];
     document.getElementById("link").innerText = "Local picture. (You can find in source file)";
 
 }
