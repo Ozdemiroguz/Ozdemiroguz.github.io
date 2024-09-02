@@ -1,1 +1,0 @@
-# Ozdemiroguz.github.io
