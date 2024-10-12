@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renkli Kareler</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        #grid {
+            display: grid;
+            grid-template-columns: repeat(5, 50px);
+            grid-template-rows: repeat(5, 50px);
+            gap: 5px;
+            margin-bottom: 20px;
+        }
+
+        .box {
+            width: 50px;
+            height: 50px;
+            background-color: grey;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="grid"></div>
+    <button id="refreshButton">Yenile</button>
+
+    <script>
+        const gridElement = document.getElementById('grid');
+        const refreshButton = document.getElementById('refreshButton');
+
+        // 5x5 kareleri oluşturma
+        function createGrid() {
+            gridElement.innerHTML = ''; // Eski kareleri temizle
+            for (let i = 0; i < 25; i++) {
+                const box = document.createElement('div');
+                box.classList.add('box');
+                gridElement.appendChild(box);
+            }
+        }
+
+        // Karelere rastgele renkler atama
+        function colorGrid() {
+            const boxes = Array.from(document.getElementsByClassName('box'));
+            const shuffledBoxes = boxes.sort(() => 0.5 - Math.random());
+
+            shuffledBoxes.slice(0, 9).forEach(box => box.style.backgroundColor = 'blue');  // 9 mavi
+            shuffledBoxes.slice(9, 17).forEach(box => box.style.backgroundColor = 'red');   // 8 kırmızı
+            shuffledBoxes[17].style.backgroundColor = 'black';                             // 1 siyah
+            shuffledBoxes.slice(18).forEach(box => box.style.backgroundColor = 'grey');    // Kalanlar gri
+        }
+
+        // Sayfa yüklendiğinde grid oluştur
+        createGrid();
+        colorGrid();
+
+        // Yenile butonuna tıklandığında grid yenile
+        refreshButton.addEventListener('click', () => {
+            createGrid();
+            colorGrid();
+        });
+    </script>
+</body>
+
+</html>
