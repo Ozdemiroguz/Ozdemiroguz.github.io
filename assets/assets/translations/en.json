@@ -1,0 +1,271 @@
+{
+  "app": {
+    "title": "Portfolio",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "back": "Back",
+    "language": "Language",
+    "changeLanguage": "Change Language",
+    "english": "English",
+    "turkish": "Turkish"
+  },
+  "about": {
+    "title": "About",
+    "description": "Personal information",
+    "fullName": "Full Name",
+    "jobTitle": "Job Title",
+    "bio": "Biography",
+    "location": "Location",
+    "education": "Education",
+    "interests": "Interests",
+    "noData": "No about data available",
+    "noDataAvailable": "No data available",
+    "birthDate": "Birth Date",
+    "data": {
+      "fullName": "Oğuzhan Özdemir",
+      "title": "Mobile & Backend Developer (Flutter, Swift, Node.js)",
+      "bio": "I am a developer with over three years of experience in mobile and backend development using Flutter, Swift, and Node.js. I have published more than six applications on the App Store and Play Store. My focus is on creating smart, innovative apps by integrating AI technologies such as OpenAI (ChatGPT) and Gemini into my projects. My goal is to combine my expertise in Flutter, native mobile, and AI development to build powerful, full-stack mobile solutions.",
+      "location": "Istanbul, Turkey",
+      "birthDate": "2002-03-30",
+      "education": "Computer Engineering — Eskisehir Osmangazi University (2020–2024)",
+      "interests": {
+        "mobileDevelopment": "Mobile Development",
+        "backendSystems": "Backend Systems",
+        "aiIntegration": "AI Integration",
+        "uiUxDesign": "UI/UX Design",
+        "openSourceProjects": "Open Source Projects"
+      }
+    }
+  },
+  "career": {
+    "title": "Career",
+    "description": "Work experience",
+    "company": "Company",
+    "position": "Position",
+    "duration": "Duration",
+    "current": "Current",
+    "technologies": "Technologies",
+    "noData": "No career data available"
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "My projects",
+    "viewGithub": "View on GitHub",
+    "viewDemo": "View Demo",
+    "technologies": "Technologies",
+    "features": "Features",
+    "status": "Status",
+    "teamSize": "Team Size",
+    "role": "Role",
+    "noData": "No project data available",
+    "personalProject": "Personal Project",
+    "clientProject": "Client Project",
+    "github": "GitHub",
+    "playStore": "Play Store",
+    "appStore": "App Store",
+    "linkedin": "LinkedIn",
+    "website": "Website",
+    "present": "Present"
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Get in touch",
+    "info": {
+      "title": "Info",
+      "description": "You can contact me to learn more about my projects, experiences, and articles. You can reach my social media accounts through the links below or send an email."
+    },
+    "contactInfo": "Contact Information",
+    "socialMedia": "Social Media",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "openEmail": "Open Email",
+    "callPhone": "Call Phone",
+    "openLink": "Open Link",
+    "medium": {
+      "articles": "Tech and software articles"
+    },
+    "message": "Message",
+    "send": "Send Message",
+    "success": "Message sent successfully!",
+    "error": "Failed to send message",
+    "noData": "No contact data available"
+  },
+  "achievement": {
+    "title": "Achievements",
+    "description": "Awards and certificates",
+    "issuer": "Issuer",
+    "date": "Date",
+    "noData": "No achievement data available",
+    "noAchievementsAvailable": "No achievements available"
+  },
+  "skills": {
+    "title": "Skills",
+    "description": "Technical skills"
+  },
+  "messages": {
+    "title": "Messages",
+    "header": {
+      "botName": "Portfolio Bot",
+      "online": "Online"
+    },
+    "input": {
+      "hint": "Type a message...",
+      "empty": "No messages yet...\nSend the first message! 💬"
+    },
+    "initial": {
+      "greeting1": "Hello!\n\nWelcome to my portfolio! Here I share my projects, experiences, and skills. You're here to learn more about me, explore my projects, or just say hello.\n\nFeel free to browse and if you see something you like, share it with me!",
+      "greeting2": "What caught your attention the most? Which of the projects, designs, or technologies in my portfolio interests you the most? If you have any questions, feel free to ask, I'm here to help you."
+    },
+    "replies": {
+      "positive1": "It's so great to see you here! Thank you for sharing your thoughts and ideas.",
+      "positive2": "Your ideas are very valuable! It's really great that you're so interested.",
+      "positive3": "It's wonderful to read your message. I'm happy to receive such feedback.",
+      "positive4": "Seeing interested people like you here makes me very happy. Thank you!",
+      "positive5": "Your comments and thoughts are very important to me. It's great that you're here!"
+    },
+    "time": {
+      "now": "Now",
+      "minutesAgo": "{minutes} min",
+      "@minutes": {
+        "description": "Number of minutes"
+      }
+    }
+  },
+  "phone": {
+    "title": "Phone",
+    "display": {
+      "enterNumber": "Enter number"
+    },
+    "call": {
+      "portfolioBot": "Portfolio Bot",
+      "dialing": "Dialing...",
+      "connecting": "Connecting...",
+      "connected": "Connected"
+    }
+  },
+  "camera": {
+    "title": "Camera",
+    "message": "You're Cute Enough"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "empty": "No photos yet"
+  },
+  "cv": {
+    "title": "Resume",
+    "subtitle": "Career summary",
+    "personalInfo": "Personal Information",
+    "skills": "Skills",
+    "experience": "Experience",
+    "education": "Education",
+    "name": "Oğuzhan Özdemir",
+    "position": "Mobile & Backend Developer",
+    "location": "Istanbul, Turkey",
+    "email": "oguz@example.com",
+    "experience1": "NodeLabs Software - Mobile Developer",
+    "experience2": "IWWOMI - Mobile Developer",
+    "experience3": "JuniusTech - Mobile Developer",
+    "education1": "Eskisehir Osmangazi University - Computer Engineering",
+    "openInBrowser": "Open in Browser",
+    "download": "Download",
+    "downloadStarted": "Download started",
+    "openInExternalBrowser": "Open PDF in external browser to view"
+  },
+  "portfolio": {
+    "welcome": "Welcome!",
+    "welcomeDescription": "Welcome to my portfolio! You can use the phone screen to explore my projects, experiences, and skills.",
+    "getInTouch": "Get In Touch",
+    "getInTouchDescription": "Feel free to contact me for any questions, project proposals, or collaborations.",
+    "downloadCV": "Download CV",
+    "downloadCVDescription": "Download my resume in PDF format to access detailed information about me.",
+    "download": "Download",
+    "connectWithMe": "CONNECT WITH ME",
+    "connect": "Connect With Me",
+    "github": "GitHub",
+    "error": "Error: {message}",
+    "@error": {
+      "message": {
+        "description": "Error message"
+      }
+    },
+    "retry": "Retry",
+    "screenTooSmall": "Screen Too Small",
+    "screenTooSmallDescription": "This portfolio requires at least 320px width.\nPlease rotate your device or use a larger screen.",
+    "appTypeNotImplemented": "App type \"{type}\" not implemented",
+    "@appTypeNotImplemented": {
+      "type": {
+        "description": "App type"
+      }
+    }
+  },
+  "browser": {
+    "title": "Browser",
+    "google": "Google",
+    "offline": {
+      "title": "Unable to connect to the Internet",
+      "subtitle": "Try checking your Internet connection while playing the game below",
+      "hint": "Press SPACE or UP arrow to jump"
+    },
+    "game": {
+      "score": "Score",
+      "gameOver": "Game Over",
+      "finalScore": "Final Score",
+      "restart": "Restart",
+      "pressToStart": "Click or press SPACE to start"
+    }
+  },
+  "map": {
+    "title": "Map",
+    "description": "My Location",
+    "myLocation": "Istanbul, Turkey",
+    "locationInfo": "Locations are only accurate\nat city level, not exact locations",
+    "currentLocation": "My Current Location",
+    "universityLocation": "I Studied University Here",
+    "hometownLocation": "My family and I are originally from here"
+  },
+  "folder": {
+    "close": "Close"
+  },
+  "snake": {
+    "title": "Snake",
+    "keyboard": "Keyboard: ←→↑↓ WASD",
+    "score": "Score: {score}",
+    "@score": {
+      "description": "Score value"
+    },
+    "startGame": "Start Game",
+    "gameOver": "Game Over!",
+    "finalScore": "Final Score: {score}",
+    "@finalScore": {
+      "score": {
+        "description": "Final score value"
+      }
+    },
+    "playAgain": "Play Again"
+  },
+  "tetris": {
+    "title": "Tetris",
+    "keyboard": "Keyboard: ←→↓ WASD Space",
+    "score": "Score: {score}",
+    "@score": {
+      "description": "Score value"
+    },
+    "level": "Level: {level}",
+    "@level": {
+      "level": {
+        "description": "Level value"
+      }
+    },
+    "startGame": "Start Game",
+    "gameOver": "Game Over!",
+    "finalScore": "Final Score: {score}",
+    "@finalScore": {
+      "score": {
+        "description": "Final score value"
+      }
+    },
+    "playAgain": "Play Again"
+  }
+}

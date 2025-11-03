@@ -1,0 +1,271 @@
+{
+  "app": {
+    "title": "Portfolyo",
+    "loading": "Yükleniyor...",
+    "error": "Bir hata oluştu",
+    "retry": "Tekrar Dene",
+     "back": "Geri",
+    "language": "Dil",
+    "changeLanguage": "Dili Değiştir",
+    "english": "İngilizce",
+    "turkish": "Türkçe"
+  },
+  "about": {
+    "title": "Hakkımda",
+    "description": "Kişisel bilgilerim",
+    "fullName": "Ad Soyad",
+    "jobTitle": "Ünvan",
+    "bio": "Biyografi",
+    "location": "Konum",
+    "education": "Eğitim",
+    "interests": "İlgi Alanları",
+    "noData": "Hakkımda verisi bulunamadı",
+    "noDataAvailable": "Veri bulunamadı",
+    "birthDate": "Doğum Tarihi",
+    "data": {
+      "fullName": "Oğuzhan Özdemir",
+      "title": "Mobil & Backend Geliştirici (Flutter, Swift, Node.js)",
+      "bio": "Flutter, Swift ve Node.js kullanarak mobil ve backend geliştirmede üç yıldan fazla deneyime sahip bir geliştiriciyim. App Store ve Play Store'da altıdan fazla uygulama yayınladım. Odak noktam, projelerime OpenAI (ChatGPT) ve Gemini gibi AI teknolojilerini entegre ederek akıllı, yenilikçi uygulamalar oluşturmaktır. Hedefim, Flutter, native mobil ve AI geliştirme konularındaki uzmanlığımı birleştirerek güçlü, full-stack mobil çözümler inşa etmektir.",
+      "location": "İstanbul, Türkiye",
+      "birthDate": "2002-03-30",
+      "education": "Bilgisayar Mühendisliği — Eskişehir Osmangazi Üniversitesi (2020–2024)",
+      "interests": {
+        "mobileDevelopment": "Mobil Geliştirme",
+        "backendSystems": "Backend Sistemler",
+        "aiIntegration": "AI Entegrasyonu",
+        "uiUxDesign": "UI/UX Tasarım",
+        "openSourceProjects": "Açık Kaynak Projeler"
+      }
+    }
+  },
+  "career": {
+    "title": "Kariyer",
+    "description": "İş deneyimlerim",
+    "company": "Şirket",
+    "position": "Pozisyon",
+    "duration": "Süre",
+    "current": "Güncel",
+    "technologies": "Teknolojiler",
+    "noData": "Kariyer verisi bulunamadı"
+  },
+  "projects": {
+    "title": "Projeler",
+    "description": "Geliştirdiğim projeler",
+    "viewGithub": "GitHub'da Görüntüle",
+    "viewDemo": "Demo'yu Görüntüle",
+    "technologies": "Teknolojiler",
+    "features": "Özellikler",
+    "status": "Durum",
+    "teamSize": "Takım Büyüklüğü",
+    "role": "Rol",
+    "noData": "Proje verisi bulunamadı",
+    "personalProject": "Kişisel Proje",
+    "clientProject": "Müşteri Projesi",
+    "github": "GitHub",
+    "playStore": "Play Store",
+    "appStore": "App Store",
+    "linkedin": "LinkedIn",
+    "website": "Website",
+    "present": "Devam Ediyor"
+  },
+  "contact": {
+    "title": "İletişim",
+    "description": "Benimle iletişime geçin",
+    "info": {
+      "title": "Bilgi",
+      "description": "Projelerim, deneyimlerim ve yazılarım hakkında daha fazla bilgi almak için benimle iletişime geçebilirsiniz. Aşağıdaki bağlantılar üzerinden sosyal medya hesaplarıma ulaşabilir veya e-posta gönderebilirsiniz."
+    },
+    "contactInfo": "İletişim Bilgileri",
+    "socialMedia": "Sosyal Medya",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "address": "Adres",
+    "openEmail": "E-postayı Aç",
+    "callPhone": "Telefonu Ara",
+    "openLink": "Bağlantıyı Aç",
+    "medium": {
+      "articles": "Teknoloji ve yazılım yazıları"
+    },
+    "message": "Mesaj",
+    "send": "Mesaj Gönder",
+    "success": "Mesaj başarıyla gönderildi!",
+    "error": "Mesaj gönderilemedi",
+    "noData": "İletişim bilgisi bulunamadı"
+  },
+  "achievement": {
+    "title": "Başarılar",
+    "description": "Ödül ve sertifikalar",
+    "issuer": "Veren Kuruluş",
+    "date": "Tarih",
+    "noData": "Başarı verisi bulunamadı",
+    "noAchievementsAvailable": "Henüz başarı bulunmuyor"
+  },
+  "skills": {
+    "title": "Yetenekler",
+    "description": "Teknik yetenekler"
+  },
+  "messages": {
+    "title": "Mesajlar",
+    "header": {
+      "botName": "Portfolio Bot",
+      "online": "Çevrimiçi"
+    },
+    "input": {
+      "hint": "Mesaj yaz...",
+      "empty": "Henüz mesaj yok...\nİlk mesajı sen gönder! 💬"
+    },
+    "initial": {
+      "greeting1": "Merhaba!\n\nPortfolio'ma hoş geldin! Burada projelerimi, deneyimlerimi ve yeteneklerimi paylaşıyorum. Hakkımda daha fazla bilgi edinmek, projelerimi incelemek veya sadece merhaba demek için buradasın.\n\nLütfen rahatça gez ve beğendiğin bir şey görürsen benimle paylaş!",
+      "greeting2": "En çok ne dikkatini çekti? Portfolio'mdaki projelerden, tasarımlardan veya teknolojilerden hangisi seni daha çok ilgilendiriyor? Merak ettiğin bir şey varsa sorabilirsin, burada sana yardımcı olmak için buradayım."
+    },
+    "replies": {
+      "positive1": "Seni burada görmek çok güzel! Düşüncelerini ve fikirlerini paylaştığın için teşekkürler.",
+      "positive2": "Fikirlerin çok değerli! Bu kadar ilgili olman gerçekten harika.",
+      "positive3": "Mesajını okumak çok güzel. Böyle geri bildirimler aldığım için mutluyum.",
+      "positive4": "Senin gibi ilgili insanları burada görmek beni çok mutlu ediyor. Teşekkürler!",
+      "positive5": "Yorumların ve düşüncelerin benim için çok önemli. Burada olman harika!"
+    },
+    "time": {
+      "now": "Şimdi",
+      "minutesAgo": "{minutes} dk",
+      "@minutes": {
+        "description": "Dakika sayısı"
+      }
+    }
+  },
+  "phone": {
+    "title": "Telefon",
+    "display": {
+      "enterNumber": "Numara girin"
+    },
+    "call": {
+      "portfolioBot": "Portfolio Bot",
+      "dialing": "Aranıyor...",
+      "connecting": "Bağlanıyor...",
+      "connected": "Bağlandı"
+    }
+  },
+  "camera": {
+    "title": "Kamera",
+    "message": "Yeterince Tatlısın"
+  },
+  "gallery": {
+    "title": "Galeri",
+    "empty": "Henüz fotoğraf yok"
+  },
+  "cv": {
+    "title": "Özgeçmiş",
+    "subtitle": "Kariyer özetim",
+    "personalInfo": "Kişisel Bilgiler",
+    "skills": "Yetenekler",
+    "experience": "Deneyim",
+    "education": "Eğitim",
+    "name": "Oğuzhan Özdemir",
+    "position": "Mobile & Backend Developer",
+    "location": "İstanbul, Türkiye",
+    "email": "oguz@example.com",
+    "experience1": "NodeLabs Software - Mobile Developer",
+    "experience2": "IWWOMI - Mobile Developer",
+    "experience3": "JuniusTech - Mobile Developer",
+    "education1": "Eskisehir Osmangazi University - Computer Engineering",
+    "openInBrowser": "Tarayıcıda Aç",
+    "download": "İndir",
+    "downloadStarted": "İndirme başlatıldı",
+    "openInExternalBrowser": "PDF görüntülemek için harici tarayıcıda açın"
+  },
+  "portfolio": {
+    "welcome": "Hoş Geldiniz!",
+    "welcomeDescription": "Portfolio'ma hoş geldiniz! Projelerimi, deneyimlerimi ve yeteneklerimi keşfetmek için telefon ekranını kullanabilirsiniz.",
+    "getInTouch": "İletişime Geçin",
+    "getInTouchDescription": "Herhangi bir soru, proje teklifi veya iş birliği için benimle iletişime geçmekten çekinmeyin.",
+    "downloadCV": "CV'yi İndir",
+    "downloadCVDescription": "Özgeçmişimi PDF formatında indirerek detaylı bilgilerime ulaşabilirsiniz.",
+    "download": "Download",
+    "connectWithMe": "BENİMLE BAĞLANTI KUR",
+    "connect": "Benimle Bağlantı Kur",
+    "github": "GitHub",
+    "error": "Hata: {message}",
+    "@error": {
+      "message": {
+        "description": "Hata mesajı"
+      }
+    },
+    "retry": "Tekrar Dene",
+    "screenTooSmall": "Ekran Çok Küçük",
+    "screenTooSmallDescription": "Bu portfolio en az 320px genişlik gerektirir.\nLütfen cihazınızı döndürün veya daha büyük bir ekran kullanın.",
+    "appTypeNotImplemented": "Uygulama türü \"{type}\" henüz uygulanmadı",
+    "@appTypeNotImplemented": {
+      "type": {
+        "description": "Uygulama türü"
+      }
+    }
+  },
+  "browser": {
+    "title": "Tarayıcı",
+    "google": "Google",
+    "offline": {
+      "title": "İnternet bağlantınız yok",
+      "subtitle": "Aşağıdaki oyunu oynarken birkaç sayfayı tekrar deneyin",
+      "hint": "Zıplamak için SPACE veya yukarı ok tuşuna basın"
+    },
+    "game": {
+      "score": "Skor",
+      "gameOver": "Oyun Bitti",
+      "finalScore": "Son Skor",
+      "restart": "Yeniden Başla",
+      "pressToStart": "Oyunu başlatmak için tıklayın veya SPACE'e basın"
+    }
+  },
+  "map": {
+    "title": "Harita",
+    "description": "Konumum",
+    "myLocation": "İstanbul, Türkiye",
+    "locationInfo": "Konumlar sadece şehir bazında\nhassastır, net konumlar değil",
+    "currentLocation": "Şu Anki Konumum",
+    "universityLocation": "Burada Üniversite Okudum",
+    "hometownLocation": "Ailem ve ben aslen buralıyız"
+  },
+  "folder": {
+    "close": "Kapat"
+  },
+  "snake": {
+    "title": "Snake",
+    "keyboard": "Klavye: ←→↑↓ WASD",
+    "score": "Skor: {score}",
+    "@score": {
+      "description": "Skor değeri"
+    },
+    "startGame": "Oyunu Başlat",
+    "gameOver": "Oyun Bitti!",
+    "finalScore": "Final Skor: {score}",
+    "@finalScore": {
+      "score": {
+        "description": "Final skor değeri"
+      }
+    },
+    "playAgain": "Tekrar Oyna"
+  },
+  "tetris": {
+    "title": "Tetris",
+    "keyboard": "Klavye: ←→↓ WASD Space",
+    "score": "Skor: {score}",
+    "@score": {
+      "description": "Skor değeri"
+    },
+    "level": "Level: {level}",
+    "@level": {
+      "level": {
+        "description": "Seviye değeri"
+      }
+    },
+    "startGame": "Oyunu Başlat",
+    "gameOver": "Oyun Bitti!",
+    "finalScore": "Final Skor: {score}",
+    "@finalScore": {
+      "score": {
+        "description": "Final skor değeri"
+      }
+    },
+    "playAgain": "Tekrar Oyna"
+  }
+}
