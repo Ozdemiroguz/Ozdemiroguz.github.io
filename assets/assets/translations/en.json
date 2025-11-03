@@ -46,7 +46,53 @@
     "duration": "Duration",
     "current": "Current",
     "technologies": "Technologies",
-    "noData": "No career data available"
+    "noData": "No career data available",
+    "nodelabs": {
+      "company": "NodeLabs Software",
+      "position": "Mobile Developer (Flutter)",
+      "description": "Developing and maintaining advanced mobile applications using Flutter with clean architecture and scalable UI patterns. Focused on performance, maintainability, and seamless integration of AI-based features across projects."
+    },
+    "iwwomi": {
+      "company": "IWWOMI",
+      "position": "Mobile Developer (Flutter & Node.js)",
+      "description": "Developed large-scale Flutter applications integrated with backend systems. Contributed to major projects like TRHaber and TaxiEMS, enhancing app performance and implementing modern architectures and Stripe-based payments."
+    },
+    "juniustech": {
+      "company": "JuniusTech",
+      "position": "Mobile Developer (Flutter & Node.js)",
+      "description": "Built production-ready applications for clients, integrating Flutter with Firebase, Speech-to-Text, and Gemini APIs. Delivered educational and healthcare projects with real-time AI-assisted features."
+    },
+    "piton": {
+      "company": "Piton Technology",
+      "position": "Flutter Developer Intern",
+      "description": "Contributed to professional Flutter development projects, focusing on UI scalability, state management, and clean code standards."
+    },
+    "flo": {
+      "company": "FLO Group",
+      "position": "FLO Online Internship Program",
+      "description": "Participated in remote software development projects and online meetings, collaborating on mobile app tasks with other interns."
+    },
+    "eltagron": {
+      "company": "Eltagron",
+      "position": "Mobile Developer (Flutter, Node.js, MySQL) — Volunteer",
+      "description": "Developed cross-platform mobile apps with Flutter and MySQL backend integration. Designed and deployed APIs, gaining deep experience in full-stack mobile system design."
+    },
+    "tech": {
+      "flutter": "Flutter",
+      "dart": "Dart",
+      "firebase": "Firebase",
+      "cleanArchitecture": "Clean Architecture",
+      "bloc": "BLoC",
+      "aiIntegration": "AI Integration",
+      "nodejs": "Node.js",
+      "stripe": "Stripe",
+      "speechToText": "Speech-to-Text",
+      "gemini": "Gemini API",
+      "provider": "Provider",
+      "git": "Git",
+      "mysql": "MySQL",
+      "express": "Express.js"
+    }
   },
   "projects": {
     "title": "Projects",
@@ -57,7 +103,6 @@
     "features": "Features",
     "status": "Status",
     "teamSize": "Team Size",
-    "role": "Role",
     "noData": "No project data available",
     "personalProject": "Personal Project",
     "clientProject": "Client Project",
@@ -66,7 +111,113 @@
     "appStore": "App Store",
     "linkedin": "LinkedIn",
     "website": "Website",
-    "present": "Present"
+    "present": "Present",
+    "role": {
+      "fullStack": "Full Stack Developer",
+      "mobile": "Mobile Developer",
+      "creator": "Creator & Developer",
+      "lead": "Lead Developer",
+      "developer": "Developer"
+    },
+    "movieApp": {
+      "title": "Movie App",
+      "description": "A comprehensive movie discovery application built with Clean Architecture principles. Features include pagination for efficient data handling, Firebase integration for real-time sync, complete user management system, multi-language support (localization), and dynamic theme switching (dark/light mode). This project showcases modern Flutter development practices and scalable architecture patterns.",
+      "features": {
+        "cleanArchitecture": "Clean Architecture implementation",
+        "apiIntegration": "API integration with pagination",
+        "firebaseAuth": "Firebase Authentication & Firestore",
+        "userManagement": "User creation and management",
+        "localization": "Multi-language support (Localization)",
+        "themeSwitching": "Dark mode & Light mode",
+        "stateManagement": "State management with BLoC",
+        "responsiveUI": "Responsive UI design"
+      }
+    },
+    "joylive": {
+      "title": "JoyLive - Live Streaming App",
+      "description": "A sophisticated live streaming platform developed at NodeLabs Software. Contributed to the development of key features including real-time video streaming, user interactions, and robust backend integration. The app provides seamless live broadcasting experience with modern Flutter architecture and scalable solutions.",
+      "features": {
+        "liveStreaming": "Real-time live streaming",
+        "authentication": "User authentication & profiles",
+        "chat": "Chat and interactions",
+        "notifications": "Push notifications",
+        "quality": "Video quality optimization",
+        "backend": "Scalable backend integration"
+      }
+    },
+    "soundcare": {
+      "title": "SoundCare: Speaker Cleaner",
+      "description": "A professional speaker cleaning application that uses sound frequencies to remove water and dust from phone speakers. Features premium subscription management with RevenueCat, monetization through Google Ads, and comprehensive analytics with Firebase. The app provides an effective solution for maintaining speaker quality and clarity.",
+      "features": {
+        "frequencyCleaning": "Sound frequency speaker cleaning",
+        "subscription": "Premium subscription with RevenueCat",
+        "ads": "Google Ads integration",
+        "analytics": "Firebase Analytics tracking",
+        "account": "User account management",
+        "waterMode": "Water ejection mode",
+        "dustMode": "Dust removal frequency",
+        "statistics": "Usage statistics"
+      }
+    },
+    "siteManagement": {
+      "title": "Site Management App",
+      "description": "A comprehensive site management application built as graduation project. The system consists of three interconnected Flutter apps working together seamlessly. Features include real-time video calls with ZegoCloud, complete Firebase integration, and scalable Clean Architecture implementation. This project demonstrates the ability to architect complex, multi-app ecosystems.",
+      "features": {
+        "threeApps": "Three interconnected Flutter apps",
+        "videoCalls": "Real-time video calls (ZegoCloud)",
+        "firebaseAuth": "Firebase Authentication",
+        "firestore": "Cloud Firestore database",
+        "functions": "Cloud Functions backend",
+        "storage": "Firebase Storage integration",
+        "cleanArchitecture": "Clean Architecture pattern",
+        "scalable": "Scalable & maintainable codebase"
+      }
+    },
+    "trhaber": {
+      "title": "TRHaber Mobile App",
+      "description": "Developed the new mobile version of TRHaber, a major news platform reaching thousands of users daily. Focused on improved performance, modern UI, and enhanced scalability.",
+      "features": {
+        "news": "Real-time news updates",
+        "ui": "Modern UI redesign",
+        "performance": "Performance optimization"
+      }
+    },
+    "taxi": {
+      "title": "TaxiEMS Mobile App",
+      "description": "A taxi booking application with Stripe payment integration. Built for a smooth, real-time ride-booking experience with modern Flutter UI and Firebase backend.",
+      "features": {
+        "payment": "Stripe payment",
+        "tracking": "Live ride tracking",
+        "dashboard": "Driver dashboard"
+      }
+    },
+    "purellm": {
+      "title": "PureLLM – On-Device AI Model Runner",
+      "description": "A Swift-based app running local AI models with MediaPipe for privacy and offline use. Combined Flutter UI with native Swift for high-performance hybrid architecture.",
+      "features": {
+        "offline": "Offline AI processing",
+        "local": "Local model execution",
+        "privacy": "Privacy-first architecture"
+      }
+    },
+    "ceptedershane": {
+      "title": "Cepte Dershane – Exam Assistant",
+      "description": "Cross-platform education assistant app using Firebase, Firestore, and OpenAI/Gemini APIs for smart study suggestions and progress tracking.",
+      "features": {
+        "ai": "Smart AI assistant",
+        "sync": "Cloud sync",
+        "analytics": "Performance analytics"
+      }
+    },
+    "greenscore": {
+      "title": "GreenScore – Recycling App",
+      "description": "Developed during a Google DSC Hackathon; achieved second place. Integrated Gemini AI with advanced camera features for recycling detection and tracking.",
+      "features": {
+        "camera": "Camera AI recognition",
+        "map": "Map integration",
+        "leaderboard": "Leaderboard system"
+      }
+    }
   },
   "contact": {
     "title": "Contact",
@@ -98,7 +249,12 @@
     "issuer": "Issuer",
     "date": "Date",
     "noData": "No achievement data available",
-    "noAchievementsAvailable": "No achievements available"
+    "noAchievementsAvailable": "No achievements available",
+    "gdsc": {
+      "title": "2nd Place — Google Developer Student Clubs Hackathon 2024",
+      "description": "Awarded second place at the national GDSC Hackathon for developing an innovative Flutter application integrating Gemini AI and Firebase technologies.",
+      "issuer": "Google Developer Student Clubs (GDSC)"
+    }
   },
   "skills": {
     "title": "Skills",
@@ -184,6 +340,7 @@
     "connectWithMe": "CONNECT WITH ME",
     "connect": "Connect With Me",
     "github": "GitHub",
+    "linkedin": "LinkedIn",
     "error": "Error: {message}",
     "@error": {
       "message": {

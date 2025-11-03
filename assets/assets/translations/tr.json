@@ -46,7 +46,53 @@
     "duration": "Süre",
     "current": "Güncel",
     "technologies": "Teknolojiler",
-    "noData": "Kariyer verisi bulunamadı"
+    "noData": "Kariyer verisi bulunamadı",
+    "nodelabs": {
+      "company": "NodeLabs Software",
+      "position": "Mobile Developer (Flutter)",
+      "description": "Clean Architecture ve ölçeklenebilir UI kalıpları ile Flutter kullanarak gelişmiş mobil uygulamalar geliştiriyor ve sürdürüyorum. Performans, bakım kolaylığı ve projelerde AI tabanlı özelliklerin kusursuz entegrasyonuna odaklanıyorum."
+    },
+    "iwwomi": {
+      "company": "IWWOMI",
+      "position": "Mobile Developer (Flutter & Node.js)",
+      "description": "Backend sistemleriyle entegre edilmiş büyük ölçekli Flutter uygulamaları geliştirdim. TRHaber ve TaxiEMS gibi önemli projelere katkıda bulunarak uygulama performansını artırdım ve modern mimariler ile Stripe tabanlı ödemeleri uyguladım."
+    },
+    "juniustech": {
+      "company": "JuniusTech",
+      "position": "Mobile Developer (Flutter & Node.js)",
+      "description": "Flutter'ı Firebase, Speech-to-Text ve Gemini API'leriyle entegre ederek müşteriler için üretime hazır uygulamalar oluşturdum. Gerçek zamanlı AI destekli özelliklerle eğitim ve sağlık projeleri teslim ettim."
+    },
+    "piton": {
+      "company": "Piton Technology",
+      "position": "Flutter Developer Intern",
+      "description": "UI ölçeklenebilirliği, durum yönetimi ve temiz kod standartlarına odaklanarak profesyonel Flutter geliştirme projelerine katkıda bulundum."
+    },
+    "flo": {
+      "company": "FLO Group",
+      "position": "FLO Online Staj Programı",
+      "description": "Uzaktan yazılım geliştirme projelerinde ve online toplantılarda yer aldım, diğer stajyerlerle birlikte mobil uygulama görevlerinde işbirliği yaptım."
+    },
+    "eltagron": {
+      "company": "Eltagron",
+      "position": "Mobile Developer (Flutter, Node.js, MySQL) — Gönüllü",
+      "description": "Flutter ve MySQL backend entegrasyonu ile çapraz platform mobil uygulamalar geliştirdim. API tasarladım ve dağıttım, full-stack mobil sistem tasarımında derin deneyim kazandım."
+    },
+    "tech": {
+      "flutter": "Flutter",
+      "dart": "Dart",
+      "firebase": "Firebase",
+      "cleanArchitecture": "Clean Architecture",
+      "bloc": "BLoC",
+      "aiIntegration": "AI Entegrasyonu",
+      "nodejs": "Node.js",
+      "stripe": "Stripe",
+      "speechToText": "Speech-to-Text",
+      "gemini": "Gemini API",
+      "provider": "Provider",
+      "git": "Git",
+      "mysql": "MySQL",
+      "express": "Express.js"
+    }
   },
   "projects": {
     "title": "Projeler",
@@ -57,7 +103,6 @@
     "features": "Özellikler",
     "status": "Durum",
     "teamSize": "Takım Büyüklüğü",
-    "role": "Rol",
     "noData": "Proje verisi bulunamadı",
     "personalProject": "Kişisel Proje",
     "clientProject": "Müşteri Projesi",
@@ -66,7 +111,113 @@
     "appStore": "App Store",
     "linkedin": "LinkedIn",
     "website": "Website",
-    "present": "Devam Ediyor"
+    "present": "Devam Ediyor",
+    "role": {
+      "fullStack": "Full Stack Geliştirici",
+      "mobile": "Mobil Geliştirici",
+      "creator": "Oluşturucu & Geliştirici",
+      "lead": "Lead Geliştirici",
+      "developer": "Geliştirici"
+    },
+    "movieApp": {
+      "title": "Movie App",
+      "description": "Clean Architecture prensipleriyle inşa edilmiş kapsamlı bir film keşfetme uygulaması. Özellikler arasında verimli veri işleme için sayfalama, gerçek zamanlı senkronizasyon için Firebase entegrasyonu, eksiksiz kullanıcı yönetim sistemi, çok dilli destek (lokalizasyon) ve dinamik tema değiştirme (karanlık/aydınlık mod) bulunmaktadır. Bu proje, modern Flutter geliştirme uygulamalarını ve ölçeklenebilir mimari kalıplarını sergiler.",
+      "features": {
+        "cleanArchitecture": "Clean Architecture implementasyonu",
+        "apiIntegration": "Sayfalama ile API entegrasyonu",
+        "firebaseAuth": "Firebase Kimlik Doğrulama & Firestore",
+        "userManagement": "Kullanıcı oluşturma ve yönetimi",
+        "localization": "Çok dilli destek (Lokalizasyon)",
+        "themeSwitching": "Karanlık mod & Aydınlık mod",
+        "stateManagement": "BLoC ile durum yönetimi",
+        "responsiveUI": "Duyarlı UI tasarımı"
+      }
+    },
+    "joylive": {
+      "title": "JoyLive - Live Streaming App",
+      "description": "NodeLabs Software'de geliştirilen gelişmiş bir canlı yayın platformu. Gerçek zamanlı video akışı, kullanıcı etkileşimleri ve sağlam backend entegrasyonu dahil olmak üzere temel özelliklerin geliştirilmesine katkıda bulundum. Uygulama, modern Flutter mimarisi ve ölçeklenebilir çözümlerle kusursuz canlı yayın deneyimi sunar.",
+      "features": {
+        "liveStreaming": "Gerçek zamanlı canlı yayın",
+        "authentication": "Kullanıcı kimlik doğrulama & profilleri",
+        "chat": "Sohbet ve etkileşimler",
+        "notifications": "Push bildirimleri",
+        "quality": "Video kalite optimizasyonu",
+        "backend": "Ölçeklenebilir backend entegrasyonu"
+      }
+    },
+    "soundcare": {
+      "title": "SoundCare: Speaker Cleaner",
+      "description": "Telefon hoparlörlerinden su ve tozu temizlemek için ses frekansları kullanan profesyonel bir hoparlör temizleme uygulaması. RevenueCat ile premium abonelik yönetimi, Google Ads ile gelir elde etme ve Firebase ile kapsamlı analitik özellikler sunar. Uygulama, hoparlör kalitesi ve netliğini korumak için etkili bir çözüm sağlar.",
+      "features": {
+        "frequencyCleaning": "Ses frekansı hoparlör temizliği",
+        "subscription": "RevenueCat ile premium abonelik",
+        "ads": "Google Ads entegrasyonu",
+        "analytics": "Firebase Analytics takibi",
+        "account": "Kullanıcı hesap yönetimi",
+        "waterMode": "Su çıkarma modu",
+        "dustMode": "Toz temizleme frekansı",
+        "statistics": "Kullanım istatistikleri"
+      }
+    },
+    "siteManagement": {
+      "title": "Site Management App",
+      "description": "Mezuniyet projesi olarak inşa edilmiş kapsamlı bir saha yönetim uygulaması. Sistem, sorunsuz bir şekilde birlikte çalışan üç birbirine bağlı Flutter uygulamasından oluşur. Özellikler arasında ZegoCloud ile gerçek zamanlı video görüşmeleri, eksiksiz Firebase entegrasyonu ve ölçeklenebilir Clean Architecture uygulaması bulunmaktadır. Bu proje, karmaşık, çok uygulamalı ekosistemler tasarlama yeteneğini gösterir.",
+      "features": {
+        "threeApps": "Üç birbirine bağlı Flutter uygulaması",
+        "videoCalls": "Gerçek zamanlı video görüşmeleri (ZegoCloud)",
+        "firebaseAuth": "Firebase Kimlik Doğrulama",
+        "firestore": "Cloud Firestore veritabanı",
+        "functions": "Cloud Functions backend",
+        "storage": "Firebase Storage entegrasyonu",
+        "cleanArchitecture": "Clean Architecture pattern",
+        "scalable": "Ölçeklenebilir & sürdürülebilir kod tabanı"
+      }
+    },
+    "trhaber": {
+      "title": "TRHaber Mobile App",
+      "description": "Günde binlerce kullanıcıya ulaşan önemli bir haber platformu olan TRHaber'in yeni mobil versiyonunu geliştirdim. Geliştirilmiş performans, modern UI ve artırılmış ölçeklenebilirlik üzerinde odaklandım.",
+      "features": {
+        "news": "Gerçek zamanlı haber güncellemeleri",
+        "ui": "Modern UI yeniden tasarımı",
+        "performance": "Performans optimizasyonu"
+      }
+    },
+    "taxi": {
+      "title": "TaxiEMS Mobile App",
+      "description": "Stripe ödeme entegrasyonu olan bir taksi rezervasyon uygulaması. Modern Flutter UI ve Firebase backend ile sorunsuz, gerçek zamanlı yolculuk rezervasyonu deneyimi için geliştirildi.",
+      "features": {
+        "payment": "Stripe ödeme",
+        "tracking": "Canlı yolculuk takibi",
+        "dashboard": "Sürücü kontrol paneli"
+      }
+    },
+    "purellm": {
+      "title": "PureLLM – On-Device AI Model Runner",
+      "description": "Gizlilik ve çevrimdışı kullanım için MediaPipe ile yerel AI modellerini çalıştıran bir Swift tabanlı uygulama. Yüksek performanslı hibrit mimari için Flutter UI'yı native Swift ile birleştirdim.",
+      "features": {
+        "offline": "Çevrimdışı AI işleme",
+        "local": "Yerel model çalıştırma",
+        "privacy": "Gizlilik odaklı mimari"
+      }
+    },
+    "ceptedershane": {
+      "title": "Cepte Dershane – Exam Assistant",
+      "description": "Akıllı çalışma önerileri ve ilerleme takibi için Firebase, Firestore ve OpenAI/Gemini API'lerini kullanan çapraz platform eğitim asistan uygulaması.",
+      "features": {
+        "ai": "Akıllı AI asistanı",
+        "sync": "Bulut senkronizasyonu",
+        "analytics": "Performans analitiği"
+      }
+    },
+    "greenscore": {
+      "title": "GreenScore – Recycling App",
+      "description": "Google DSC Hackathon sırasında geliştirildi; ikinci derece elde etti. Geri dönüşüm algılama ve takibi için gelişmiş kamera özellikleri ile Gemini AI entegre edildi.",
+      "features": {
+        "camera": "Kamera AI tanıma",
+        "map": "Harita entegrasyonu",
+        "leaderboard": "Liderlik tablosu sistemi"
+      }
+    }
   },
   "contact": {
     "title": "İletişim",
@@ -98,7 +249,12 @@
     "issuer": "Veren Kuruluş",
     "date": "Tarih",
     "noData": "Başarı verisi bulunamadı",
-    "noAchievementsAvailable": "Henüz başarı bulunmuyor"
+    "noAchievementsAvailable": "Henüz başarı bulunmuyor",
+    "gdsc": {
+      "title": "2. Derece — Google Developer Student Clubs Hackathon 2024",
+      "description": "Ulusal GDSC Hackathon'unda Gemini AI ve Firebase teknolojilerini entegre eden yenilikçi bir Flutter uygulaması geliştirerek ikinci derece aldım.",
+      "issuer": "Google Developer Student Clubs (GDSC)"
+    }
   },
   "skills": {
     "title": "Yetenekler",
@@ -180,10 +336,11 @@
     "getInTouchDescription": "Herhangi bir soru, proje teklifi veya iş birliği için benimle iletişime geçmekten çekinmeyin.",
     "downloadCV": "CV'yi İndir",
     "downloadCVDescription": "Özgeçmişimi PDF formatında indirerek detaylı bilgilerime ulaşabilirsiniz.",
-    "download": "Download",
+    "download": "İndir",
     "connectWithMe": "BENİMLE BAĞLANTI KUR",
     "connect": "Benimle Bağlantı Kur",
     "github": "GitHub",
+    "linkedin": "LinkedIn",
     "error": "Hata: {message}",
     "@error": {
       "message": {
