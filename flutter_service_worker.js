@@ -3,11 +3,11 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"flutter_bootstrap.js": "892762aafc9ef17d931e3f9ccc247976",
+const RESOURCES = {"flutter_bootstrap.js": "b96c0d64ac5548ab42b8d9f03eb7f2cc",
 "version.json": "009c9e65172e010890f7f65fde438006",
 "index.html": "80b7f3c2a7bb29c643595523dbc0fc2e",
 "/": "80b7f3c2a7bb29c643595523dbc0fc2e",
-"main.dart.js": "cafb21f46995a849ea34103dfa3af35b",
+"main.dart.js": "a630dbd707950dee06e5aea4d18264e9",
 "flutter.js": "888483df48293866f9f41d3d9274a779",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
@@ -57,7 +57,7 @@ const RESOURCES = {"flutter_bootstrap.js": "892762aafc9ef17d931e3f9ccc247976",
 "assets/assets/images/joylive_2.webp": "681632709a95b74f87a358381e5f84a5",
 "assets/assets/translations/tr.json": "49b688c1f48303f1f70ab4a6e483f3f9",
 "assets/assets/translations/en.json": "9c7571eff8b42187eb832d4190976335",
-"assets/assets/Oguzhan-Ozdemir-Resume-20251030.pdf": "d45ea08da87a5b12cae76861f6ebb152",
+"assets/assets/Oguzhan-Ozdemir-Resume-20251030.pdf": "6edeea4e8ae23f5ae6d73303976ca5c4",
 "canvaskit/skwasm.js": "1ef3ea3a0fec4569e5d531da25f34095",
 "canvaskit/skwasm_heavy.js": "413f5b2b2d9345f37de148e2544f584f",
 "canvaskit/skwasm.js.symbols": "0088242d10d7e7d6d2649d1fe1bda7c1",
