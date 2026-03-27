@@ -209,6 +209,20 @@
         "analytics": "Performans analitiği"
       }
     },
+    "imageflow": {
+      "title": "ImageFlow – Akıllı Görüntü İşleme",
+      "description": "Cihaz üzerinde çalışan akıllı bir görüntü işleme uygulaması. Görüntülerin yüz mü yoksa doküman mı olduğunu otomatik olarak algılayıp uygun işleme hattını uygular. Gerçek zamanlı kamera overlay, ML Kit yüz algılama, OCR destekli doküman kenar algılama (OpenCV/Vision), perspektif düzeltme, PDF oluşturma ve toplu işleme özellikleri sunar. Clean Architecture, native platform kanalları ve isolate destekli dönüşümlerle inşa edilmiştir.",
+      "features": {
+        "detection": "Otomatik yüz/doküman algılama",
+        "overlay": "Gerçek zamanlı kamera overlay",
+        "faceDetection": "ML Kit yüz algılama pipeline'ı",
+        "ocrEdge": "OCR + doküman kenar algılama",
+        "perspective": "Perspektif düzeltme & PDF oluşturma",
+        "batch": "Durum takipli toplu işleme",
+        "native": "Native OpenCV & Vision entegrasyonu",
+        "isolate": "Isolate destekli görüntü dönüşümleri"
+      }
+    },
     "greenscore": {
       "title": "GreenScore – Recycling App",
       "description": "Google DSC Hackathon sırasında geliştirildi; ikinci derece elde etti. Geri dönüşüm algılama ve takibi için gelişmiş kamera özellikleri ile Gemini AI entegre edildi.",

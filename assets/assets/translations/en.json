@@ -209,6 +209,20 @@
         "analytics": "Performance analytics"
       }
     },
+    "imageflow": {
+      "title": "ImageFlow – Smart Image Processing",
+      "description": "An intelligent on-device image processing app that automatically detects faces and documents, then applies the appropriate pipeline. Features real-time camera overlays, ML Kit face detection, OCR-gated document edge detection with OpenCV/Vision, perspective correction, PDF generation, and batch processing. Built with Clean Architecture, native platform channels, and isolate-backed transforms for smooth UI performance.",
+      "features": {
+        "detection": "Auto face/document detection",
+        "overlay": "Real-time camera overlay",
+        "faceDetection": "ML Kit face detection pipeline",
+        "ocrEdge": "OCR + document edge detection",
+        "perspective": "Perspective correction & PDF generation",
+        "batch": "Batch processing with status tracking",
+        "native": "Native OpenCV & Vision integration",
+        "isolate": "Isolate-backed image transforms"
+      }
+    },
     "greenscore": {
       "title": "GreenScore – Recycling App",
       "description": "Developed during a Google DSC Hackathon; achieved second place. Integrated Gemini AI with advanced camera features for recycling detection and tracking.",
