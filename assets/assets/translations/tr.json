@@ -22,16 +22,19 @@
     "noData": "Hakkımda verisi bulunamadı",
     "noDataAvailable": "Veri bulunamadı",
     "birthDate": "Doğum Tarihi",
+    "viewAppStore": "App Store'da Görüntüle",
+    "viewGitHub": "GitHub'da Görüntüle",
     "data": {
       "fullName": "Oğuzhan Özdemir",
-      "title": "Mobil & Backend Geliştirici (Flutter, Swift, Node.js)",
-      "bio": "Flutter, Swift ve Node.js kullanarak mobil ve backend geliştirmede üç yıldan fazla deneyime sahip bir geliştiriciyim. App Store ve Play Store'da altıdan fazla uygulama yayınladım. Odak noktam, projelerime OpenAI (ChatGPT) ve Gemini gibi AI teknolojilerini entegre ederek akıllı, yenilikçi uygulamalar oluşturmaktır. Hedefim, Flutter, native mobil ve AI geliştirme konularındaki uzmanlığımı birleştirerek güçlü, full-stack mobil çözümler inşa etmektir.",
+      "title": "Mobile Engineer · Flutter · Bloc · Subscription Stack",
+      "bio": "3+ yıl iOS ve Android için Flutter ile production uygulama geliştiren mobil mühendisim. Nodelabs'ta production uygulamalar üzerinde çalışıyorum (4.7K yorumlu bir uygulamanın mimari yenilemesinde başlatma süresini ~%44 iyileştirdim) ve indie geliştirici olarak App Store'da utility & productivity uygulamaları yayınlıyorum. Günlük çalışmamda Bloc, RevenueCat, Firebase / Mixpanel analitiği ve native bridge (Swift Vision / Kotlin OpenCV) ile birlikte tüm release yaşam döngüsünde rahatım.",
       "location": "İstanbul, Türkiye",
       "birthDate": "2002-03-30",
-      "education": "Bilgisayar Mühendisliği — Eskişehir Osmangazi Üniversitesi (2020–2024)",
+      "education": "Bilgisayar Mühendisliği — Eskişehir Osmangazi Üniversitesi (2020–2025)",
       "interests": {
         "mobileDevelopment": "Mobil Geliştirme",
-        "backendSystems": "Backend Sistemler",
+        "subscriptionMonetization": "Subscription Monetization",
+        "indieAppPublishing": "Indie App Publishing",
         "aiIntegration": "AI Entegrasyonu",
         "uiUxDesign": "UI/UX Tasarım",
         "openSourceProjects": "Açık Kaynak Projeler"
@@ -91,7 +94,18 @@
       "provider": "Provider",
       "git": "Git",
       "mysql": "MySQL",
-      "express": "Express.js"
+      "express": "Express.js",
+      "revenuecat": "RevenueCat",
+      "admob": "AdMob",
+      "firebaseAnalytics": "Firebase Analytics",
+      "mixpanel": "Mixpanel",
+      "crashlytics": "Crashlytics",
+      "videosdk": "VideoSDK",
+      "websocket": "WebSocket",
+      "restApi": "REST API",
+      "iot": "IoT",
+      "appStore": "App Store Connect",
+      "appStoreConnect": "App Store Connect"
     }
   },
   "projects": {
@@ -246,6 +260,10 @@
     "phone": "Telefon",
     "address": "Adres",
     "openEmail": "E-postayı Aç",
+    "emailMe": "E-posta Gönder",
+    "whatsapp": "WhatsApp",
+    "copyLink": "Bağlantıyı Kopyala",
+    "linkCopied": "Bağlantı kopyalandı!",
     "callPhone": "Telefonu Ara",
     "openLink": "Bağlantıyı Aç",
     "medium": {

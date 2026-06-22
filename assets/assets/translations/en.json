@@ -22,16 +22,19 @@
     "noData": "No about data available",
     "noDataAvailable": "No data available",
     "birthDate": "Birth Date",
+    "viewAppStore": "View on App Store",
+    "viewGitHub": "View on GitHub",
     "data": {
       "fullName": "Oğuzhan Özdemir",
-      "title": "Mobile & Backend Developer (Flutter, Swift, Node.js)",
-      "bio": "I am a developer with over three years of experience in mobile and backend development using Flutter, Swift, and Node.js. I have published more than six applications on the App Store and Play Store. My focus is on creating smart, innovative apps by integrating AI technologies such as OpenAI (ChatGPT) and Gemini into my projects. My goal is to combine my expertise in Flutter, native mobile, and AI development to build powerful, full-stack mobile solutions.",
+      "title": "Mobile Engineer · Flutter · Bloc · Subscription Stack",
+      "bio": "Mobile engineer with 3+ years of Flutter experience on iOS and Android. I work on production apps at Nodelabs (including a 4.7K-review rebuild that improved startup by ~44%) and publish utility & productivity apps on the App Store as an indie developer. Day-to-day I work with Bloc, RevenueCat, Firebase / Mixpanel analytics, and native bridges (Swift Vision / Kotlin OpenCV) across the full release lifecycle.",
       "location": "Istanbul, Turkey",
       "birthDate": "2002-03-30",
-      "education": "Computer Engineering — Eskisehir Osmangazi University (2020–2024)",
+      "education": "Computer Engineering — Eskisehir Osmangazi University (2020–2025)",
       "interests": {
         "mobileDevelopment": "Mobile Development",
-        "backendSystems": "Backend Systems",
+        "subscriptionMonetization": "Subscription Monetization",
+        "indieAppPublishing": "Indie App Publishing",
         "aiIntegration": "AI Integration",
         "uiUxDesign": "UI/UX Design",
         "openSourceProjects": "Open Source Projects"
@@ -91,7 +94,18 @@
       "provider": "Provider",
       "git": "Git",
       "mysql": "MySQL",
-      "express": "Express.js"
+      "express": "Express.js",
+      "revenuecat": "RevenueCat",
+      "admob": "AdMob",
+      "firebaseAnalytics": "Firebase Analytics",
+      "mixpanel": "Mixpanel",
+      "crashlytics": "Crashlytics",
+      "videosdk": "VideoSDK",
+      "websocket": "WebSocket",
+      "restApi": "REST API",
+      "iot": "IoT",
+      "appStore": "App Store Connect",
+      "appStoreConnect": "App Store Connect"
     }
   },
   "projects": {
@@ -246,6 +260,10 @@
     "phone": "Phone",
     "address": "Address",
     "openEmail": "Open Email",
+    "emailMe": "Email Me",
+    "whatsapp": "WhatsApp",
+    "copyLink": "Copy Link",
+    "linkCopied": "Link copied!",
     "callPhone": "Call Phone",
     "openLink": "Open Link",
     "medium": {
