@@ -4,7 +4,7 @@
     "loading": "Yükleniyor...",
     "error": "Bir hata oluştu",
     "retry": "Tekrar Dene",
-     "back": "Geri",
+    "back": "Geri",
     "language": "Dil",
     "changeLanguage": "Dili Değiştir",
     "english": "İngilizce",
@@ -244,6 +244,31 @@
         "camera": "Kamera AI tanıma",
         "map": "Harita entegrasyonu",
         "leaderboard": "Liderlik tablosu sistemi"
+      }
+    },
+    "documentScan": {
+      "title": "document_scan — Başsız Belge Tarayıcı",
+      "description": "Canlı kamera karelerinde ve fotoğraflarda belge köşelerini tamamen çevrimdışı tespit eden açık kaynak Flutter paketi. Köşe tespiti ve perspektif düzeltme, arka plan isolate'inde native Apple Vision (iOS) ve OpenCV (Android) üzerinden çalışır. Tam ekran bir arayüz değil, birleştirilebilir bir motor — kamera ve görünüm uygulamanın kontrolünde. 160/160 pub puanı.",
+      "features": {
+        "offline": "Çevrimdışı köşe tespiti — buluta gidiş yok",
+        "native": "Native Apple Vision (iOS) + OpenCV (Android)",
+        "perspective": "Perspektif düzeltme",
+        "isolate": "Isolate tabanlı, arayüz akıcı kalır",
+        "composable": "Birleştirilebilir motor, kamera arayüzü sende",
+        "pdf": "PDF dışa aktarma",
+        "pubPoints": "160/160 pub puanı, MIT lisanslı"
+      }
+    },
+    "imageCompressor": {
+      "title": "image_compressor — Hedef Boyuta Sıkıştırma",
+      "description": "Bir görseli tek çağrıda hedeflenen dosya boyutunun altına sıkıştıran açık kaynak Flutter paketi. iOS ve Android'de native hız, web'de sıfır yapılandırma; otomatik yön düzeltme ve büyük görsel ölçekleme dahil. 160/160 pub puanı.",
+      "features": {
+        "targetSize": "Tek çağrıda hedef boyut — X KB altına indir",
+        "nativeSpeed": "iOS + Android'de native sıkıştırma hızı",
+        "web": "Sıfır yapılandırmayla web desteği",
+        "orientation": "Otomatik EXIF yön düzeltme",
+        "largeImage": "Bellek taşmadan büyük görsel ölçekleme",
+        "pubPoints": "160/160 pub puanı, MIT lisanslı"
       }
     }
   },

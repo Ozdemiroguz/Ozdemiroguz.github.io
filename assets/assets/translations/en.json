@@ -245,6 +245,31 @@
         "map": "Map integration",
         "leaderboard": "Leaderboard system"
       }
+    },
+    "documentScan": {
+      "title": "document_scan — Headless Document Scanner",
+      "description": "Open-source Flutter package that detects a document's corners in live camera frames and photos, fully offline. Corner detection and perspective correction run through native Apple Vision (iOS) and OpenCV (Android) on a background isolate. Composable engine, not a fullscreen UI — the app owns the camera and the look. 160/160 pub points.",
+      "features": {
+        "offline": "Offline corner detection — no cloud round-trip",
+        "native": "Native Apple Vision (iOS) + OpenCV (Android)",
+        "perspective": "Perspective correction",
+        "isolate": "Isolate-based, keeps UI thread free",
+        "composable": "Composable engine, bring your own camera UI",
+        "pdf": "PDF export",
+        "pubPoints": "160/160 pub points, MIT licensed"
+      }
+    },
+    "imageCompressor": {
+      "title": "image_compressor — Compress to a Target Size",
+      "description": "Open-source Flutter package that compresses an image under a target file size in a single call. Native speed on iOS and Android, zero-config on web, with automatic orientation handling and large-image downscaling. 160/160 pub points.",
+      "features": {
+        "targetSize": "Target file size in one call — get an image under X KB",
+        "nativeSpeed": "Native compression speed on iOS + Android",
+        "web": "Zero-config web support",
+        "orientation": "Automatic EXIF orientation handling",
+        "largeImage": "Large-image downscaling without OOM",
+        "pubPoints": "160/160 pub points, MIT licensed"
+      }
     }
   },
   "contact": {
