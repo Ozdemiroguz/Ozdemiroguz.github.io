@@ -160,7 +160,7 @@
       }
     },
     "soundcare": {
-      "title": "SoundCare: Speaker Cleaner",
+      "title": "SoundCare: Water Eject Speaker",
       "description": "Telefon hoparlörlerinden su ve tozu temizlemek için ses frekansları kullanan profesyonel bir hoparlör temizleme uygulaması. RevenueCat ile premium abonelik yönetimi, Google Ads ile gelir elde etme ve Firebase ile kapsamlı analitik özellikler sunar. Uygulama, hoparlör kalitesi ve netliğini korumak için etkili bir çözüm sağlar.",
       "features": {
         "frequencyCleaning": "Ses frekansı hoparlör temizliği",
@@ -203,24 +203,6 @@
         "payment": "Stripe ödeme",
         "tracking": "Canlı yolculuk takibi",
         "dashboard": "Sürücü kontrol paneli"
-      }
-    },
-    "purellm": {
-      "title": "PureLLM – On-Device AI Model Runner",
-      "description": "Gizlilik ve çevrimdışı kullanım için MediaPipe ile yerel AI modellerini çalıştıran bir Swift tabanlı uygulama. Yüksek performanslı hibrit mimari için Flutter UI'yı native Swift ile birleştirdim.",
-      "features": {
-        "offline": "Çevrimdışı AI işleme",
-        "local": "Yerel model çalıştırma",
-        "privacy": "Gizlilik odaklı mimari"
-      }
-    },
-    "ceptedershane": {
-      "title": "Cepte Dershane – Exam Assistant",
-      "description": "Akıllı çalışma önerileri ve ilerleme takibi için Firebase, Firestore ve OpenAI/Gemini API'lerini kullanan çapraz platform eğitim asistan uygulaması.",
-      "features": {
-        "ai": "Akıllı AI asistanı",
-        "sync": "Bulut senkronizasyonu",
-        "analytics": "Performans analitiği"
       }
     },
     "imageflow": {

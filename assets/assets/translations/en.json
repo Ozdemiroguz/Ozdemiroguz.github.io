@@ -160,7 +160,7 @@
       }
     },
     "soundcare": {
-      "title": "SoundCare: Speaker Cleaner",
+      "title": "SoundCare: Water Eject Speaker",
       "description": "A professional speaker cleaning application that uses sound frequencies to remove water and dust from phone speakers. Features premium subscription management with RevenueCat, monetization through Google Ads, and comprehensive analytics with Firebase. The app provides an effective solution for maintaining speaker quality and clarity.",
       "features": {
         "frequencyCleaning": "Sound frequency speaker cleaning",
@@ -203,24 +203,6 @@
         "payment": "Stripe payment",
         "tracking": "Live ride tracking",
         "dashboard": "Driver dashboard"
-      }
-    },
-    "purellm": {
-      "title": "PureLLM – On-Device AI Model Runner",
-      "description": "A Swift-based app running local AI models with MediaPipe for privacy and offline use. Combined Flutter UI with native Swift for high-performance hybrid architecture.",
-      "features": {
-        "offline": "Offline AI processing",
-        "local": "Local model execution",
-        "privacy": "Privacy-first architecture"
-      }
-    },
-    "ceptedershane": {
-      "title": "Cepte Dershane – Exam Assistant",
-      "description": "Cross-platform education assistant app using Firebase, Firestore, and OpenAI/Gemini APIs for smart study suggestions and progress tracking.",
-      "features": {
-        "ai": "Smart AI assistant",
-        "sync": "Cloud sync",
-        "analytics": "Performance analytics"
       }
     },
     "imageflow": {
